@@ -7,6 +7,14 @@ MIRROR="$(dirname "$HERE")"
 LOG="$MIRROR/logs"; mkdir -p "$LOG"
 PIP="${PIP_INDEX:-}"   # 可 export PIP_INDEX=https://pypi.tuna.tsinghua.edu.cn/simple
 pipin() { pip install $PIP "$@" >>"$LOG/pip.log" 2>&1; }
+# 三级源降级: 默认(AutoDL内部镜像,可能滞后) -> 清华 -> PyPI官方
+pipin3() {
+  pipin "$@" && return 0
+  echo "[retry] 默认源失败,试清华" >>"$LOG/pip.log"
+  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple "$@" >>"$LOG/pip.log" 2>&1 && return 0
+  echo "[retry] 清华失败,试PyPI官方" >>"$LOG/pip.log"
+  pip install -i https://pypi.org/simple "$@" >>"$LOG/pip.log" 2>&1
+}
 
 clone_gh() { # clone_gh <url> <dest> : github直连->ghproxy->gitclone 三连降级
   local url="$1" dest="$2"
@@ -20,11 +28,11 @@ echo "== 1/3 ComfyUI =="
 clone_gh "https://github.com/comfyanonymous/ComfyUI.git" "$MIRROR/ComfyUI" || echo "[warn] ComfyUI clone失败,看git.log"
 if [ -f "$MIRROR/ComfyUI/requirements.txt" ]; then
   grep -viE '^\s*torch' "$MIRROR/ComfyUI/requirements.txt" > "$LOG/req_no_torch.txt"
-  pipin -r "$LOG/req_no_torch.txt" || echo "[warn] comfy依赖部分失败,明细pip.log"
+  pipin3 -r "$LOG/req_no_torch.txt" || echo "[warn] comfy依赖部分失败,明细pip.log"
 fi
 
 echo "== 2/3 网关依赖 =="
-python -c "import fastapi, uvicorn" 2>/dev/null || pipin fastapi uvicorn || echo "[warn] fastapi安装失败"
+python -c "import fastapi, uvicorn" 2>/dev/null || pipin3 fastapi uvicorn || echo "[warn] fastapi安装失败"
 python -c "import requests" 2>/dev/null || pipin requests
 
 echo "== 3/3 自检 =="
