@@ -1,0 +1,1464 @@
+{
+ "source": "zealman镜像 API卡(实例实抓 workflows_raw)",
+ "categories": [
+  {
+   "key": "h3",
+   "label": "🎬 H3 视频（音画同步·主力引擎）",
+   "items": [
+    {
+     "id": "API-U03-minimax_h3_light2v-文生视频加速版API-V2",
+     "ability": "文生视频·加速版(12步Turbo)",
+     "biz": "末世短剧|推文混剪",
+     "note": "⭐首片已验证(2.5分钟)",
+     "runs": 1,
+     "params": [
+      {
+       "label": "自定义宽 (节点 120)",
+       "default": 864
+      },
+      {
+       "label": "自定义高 (节点 120)",
+       "default": 480
+      },
+      {
+       "label": "prompt (节点 139)",
+       "default": "Vaporwave title sequence look: pink and blue gradient palette, VHS tracking artifacts, Greek statue motifs, chrome palm trees, RGB chromatic aberration, lo-fi retro atmosphere, mood languid and nostalgic.\n\nTimeline:\n[0s-1s] VHS static opens the frame, the title \"COMFYUI\" appears with RGB split and a slight horizontal jitter.\n[1s-2.5s] Hard cut, a Greek plaster bust close-up, pink-purple gradient sky, a pixelated sun.\n[2.5s-4s] Clean \"STARRING\" credits appear, \"LATENT\" and \"CONTROLNET\" each shown exactly once.\n[4s-5s] Final card \"DIRECTED BY COMFYUI\" holds, one VHS tracking glitch settling into stability.\n\nHard cuts only, transitions landing with tape jumps, no push-ins, no dissolves.\n\nAudio: lo-fi vaporwave score, slow drum machine with soft bass, VHS tape-noise sample joins at 2.5s, melody fading for the last 1s.\n\nAll text must be clearly legible, do not misspell English, no Chinese characters, do not repeat names or job titles, no soft dissolves, no subtitle bars."
+      },
+      {
+       "label": "value (节点 141)",
+       "default": 5
+      }
+     ]
+    },
+    {
+     "id": "API-U03-minimax_h3_文生视频基础版API-V2",
+     "ability": "文生视频·基础版(质量优先)",
+     "biz": "末世短剧|推文混剪",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "自定义宽 (节点 120)",
+       "default": 864
+      },
+      {
+       "label": "自定义高 (节点 120)",
+       "default": 480
+      },
+      {
+       "label": "prompt (节点 137)",
+       "default": "Vaporwave title sequence look: pink and blue gradient palette, VHS tracking artifacts, Greek statue motifs, chrome palm trees, RGB chromatic aberration, lo-fi retro atmosphere, mood languid and nostalgic.\n\nTimeline:\n[0s-1s] VHS static opens the frame, the title \"COMFYUI\" appears with RGB split and a slight horizontal jitter.\n[1s-2.5s] Hard cut, a Greek plaster bust close-up, pink-purple gradient sky, a pixelated sun.\n[2.5s-4s] Clean \"STARRING\" credits appear, \"LATENT\" and \"CONTROLNET\" each shown exactly once.\n[4s-5s] Final card \"DIRECTED BY COMFYUI\" holds, one VHS tracking glitch settling into stability.\n\nHard cuts only, transitions landing with tape jumps, no push-ins, no dissolves.\n\nAudio: lo-fi vaporwave score, slow drum machine with soft bass, VHS tape-noise sample joins at 2.5s, melody fading for the last 1s.\n\nAll text must be clearly legible, do not misspell English, no Chinese characters, do not repeat names or job titles, no soft dissolves, no subtitle bars."
+      },
+      {
+       "label": "value (节点 139)",
+       "default": 2
+      }
+     ]
+    },
+    {
+     "id": "API-U02-minimax_h3_图生视频基础版-V2",
+     "ability": "图生视频(I2V首帧驱动)",
+     "biz": "驯疯男主画面|分镜动起来",
+     "note": "🔥画面升级主力",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 114)",
+       "default": null
+      },
+      {
+       "label": "自定义宽 (节点 122)",
+       "default": 864
+      },
+      {
+       "label": "自定义高 (节点 122)",
+       "default": 480
+      },
+      {
+       "label": "prompt (节点 139)",
+       "default": "Vaporwave title sequence look: pink and blue gradient palette, VHS tracking artifacts, Greek statue motifs, chrome palm trees, RGB chromatic aberration, lo-fi retro atmosphere, mood languid and nostalgic.\n\nTimeline:\n[0s-1s] VHS static opens the frame, the title \"COMFYUI\" appears with RGB split and a slight horizontal jitter.\n[1s-2.5s] Hard cut, a Greek plaster bust close-up, pink-purple gradient sky, a pixelated sun.\n[2.5s-4s] Clean \"STARRING\" credits appear, \"LATENT\" and \"CONTROLNET\" each shown exactly once.\n[4s-5s] Final card \"DIRECTED BY COMFYUI\" holds, one VHS tracking glitch settling into stability.\n\nHard cuts only, transitions landing with tape jumps, no push-ins, no dissolves.\n\nAudio: lo-fi vaporwave score, slow drum machine with soft bass, VHS tape-noise sample joins at 2.5s, melody fading for the last 1s.\n\nAll text must be clearly legible, do not misspell English, no Chinese characters, do not repeat names or job titles, no soft dissolves, no subtitle bars."
+      },
+      {
+       "label": "value (节点 141)",
+       "default": 5
+      },
+      {
+       "label": "上传图片 (节点 144)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U01-minimax_h3_基础版API",
+     "ability": "多图参考生视频",
+     "biz": "角色一致性视频",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 137)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 139)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 141)",
+       "default": null
+      },
+      {
+       "label": "自定义宽 (节点 145)",
+       "default": 864
+      },
+      {
+       "label": "自定义高 (节点 145)",
+       "default": 480
+      },
+      {
+       "label": "prompt (节点 146)",
+       "default": "Aesthetic: Cinematic wuxia atmosphere, static handheld medium shot, warm oil-lantern glow cutting through cool rainy mist, moody and healing film grain texture\n[SHOT 1]\nDuration: 0:00 - 0:03\nCamera Motion: Static handheld medium shot, subtle frame tremor from falling rain\nVisual Prompt: Starting from the reference frame. Inside a wooden canopy boat drifting on a misty lake at night, the young woman in red embroidered hanfu — with black hair in a traditional updo and dangling earrings — holds the white fox with thick pure-white fur in both arms. She bends forward and lowers the fox onto a dry wooden plank inside the cabin, then grabs a cloth and wipes rainwater off its fur with firm stroking motions. A lit oil lantern hangs beside her, casting warm golden light across the cabin while rain streaks down outside. Lotus leaves float on the dark lake surface visible through the boat entrance.\nAudio / Dialogue: 淅沥雨声、木船吱呀声、湖水轻拍船舷 [环境音为主，此镜无人声]\n[SHOT 2]\nDuration: 0:03 - 0:07\nCamera Motion: Subtle handheld push-in, slow and steady toward both figures\nVisual Prompt: The white fox sits upright with pointed ears raised high, staring directly at her with alert dark eyes and rigid posture. The woman lowers herself into a squat and reaches one hand toward the fox's head, then strokes firmly along its head and back with repeated downward palm motions. She speaks directly to the fox with natural lip-sync, her expression calm and steady. The fox's bushy tail stays tense behind its body but makes no attempt to flee. Warm lantern light flickers across both their faces.\nAudio / Dialogue: 雨声持续、布料摩擦声 [年轻女声 / 温软低缓] 人声：\"别怕，已经没事了。雨再大，我也不会把你丢下。\"\n[SHOT 3]\nDuration: 0:07 - 0:11\nCamera Motion: Static handheld medium close-up, minimal movement holding both in frame\nVisual Prompt: The white fox releases tension from its shoulders and settles its breathing, eyes softening into a calmer gaze. The woman maintains eye contact with the fox and smiles warmly while continuing steady stroking motions along its back with her open palm. She speaks again with clear lip movement, nodding her head as she talks. The fox's bushy tail relaxes and rests on the wooden floor. Rain continues falling outside the boat canopy, and mist drifts across the lake.\nAudio / Dialogue: 雨声渐柔、灯火轻微摇曳声 [年轻女声 / 轻声带笑意] 人声：\"下次你可得多小心点呀，外面的坏人实在太多了。\"\n[SHOT 4]\nDuration: 0:11 - 0:15\nCamera Motion: Very slow handheld pull-back, gentle drift keeping both figures centered\nVisual Prompt: The white fox lowers its full body into a resting position and curls its thick bushy tail around itself in a deliberate wrapping motion. The woman stays crouched beside it, keeping one hand on the fox's back with slow, consistent stroking. The oil lantern flame swings back and forth inside the cabin, painting moving golden streaks on the wooden walls. Mist drifts across the dark lake surface visible through the boat entrance, and lotus leaves shift gently in the rain. Both figures remain centered in the frame — the red hanfu and white fur glowing against the dark rainy background.\nAudio / Dialogue: 雨声、湖水声、灯火摇曳声交织 [环境音收尾，无人声]"
+      },
+      {
+       "label": "value (节点 147)",
+       "default": 10
+      }
+     ]
+    },
+    {
+     "id": "API-U00-minimax_h3提示词QWEN3.8群主版",
+     "ability": "H3提示词优化器(Qwen3.8)",
+     "biz": "所有H3卡的上游",
+     "note": "🛠",
+     "runs": 1,
+     "params": [
+      {
+       "label": "上传图片 (节点 1)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 2)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 3)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 4)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 5)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 6)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 7)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 8)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 9)",
+       "default": null
+      },
+      {
+       "label": "提示词 (节点 15)",
+       "default": "图1的女士和图2的男士去图4的雪景场景找到了图2的红衣女生，图1的女士镜头特写说话：师姐我终于找到你了。图3的女士说:都怪群主太能折腾了，我差点爬不起来。嘤嘤嘤！"
+      }
+     ]
+    },
+    {
+     "id": "API-U24-文武双修T8版",
+     "ability": "图文双参考双采样T8加速",
+     "biz": "高要求分镜视频",
+     "note": "",
+     "runs": 6,
+     "params": [
+      {
+       "label": "noise_seed (节点 11)",
+       "default": 683072603085674
+      },
+      {
+       "label": "时长 (value)",
+       "default": 15
+      },
+      {
+       "label": "提示词 (节点 28)",
+       "default": "subject_definitions:\n- <Subject 1>: A cold-featured East Asian young female warrior with flawless pale skin, black straight bangs above her brows, and waist-length straight black hair with subtle dark teal tips. She wears a black high-gloss leather cropped jacket, black turtleneck base layer, pleated leather battle skirt with leg straps and bronze metal buckles, half-finger tactical gloves, and knee-high combat boots with dark red stitching. She wields a massive, heavy mechanical greatsword featuring a dark-gray armored spine, mechanical hydraulic joints, and razor-sharp silver edges. When activated, the sword's inner mechanics ignite into orange-white superheated thermal glow and compressed orange-gold energy.\n- <Subject 2>: An apocalyptic surrealist desert wasteland featuring sun-scorched earth, crumbling stone arch ruins, weathered utility poles, background wind turbines, volumetric dust clouds, and flying debris under hazy natural sunlight.\n- <Subject 3>: Global visual rendering style featuring Unreal Engine 5.4 Path Tracing aesthetic, Lumen global illumination, Nanite geometry detail, PBR physical material response with 35mm Kodak film grain, high-gloss leather highlights, metallic weathering, heat-wave air refraction, and 3-part hybrid combat effects (50% heavy sword compression shockwaves, 30% white-orange carbonization burn and ash, 20% sandstorm fluid dynamics with melted glass particles).\n- <Subject 4>: Superheated orange-white thermal explosion effects consisting of hyper-dense volumetric smoke, high-velocity molten sparks, floating glowing ash particles, expanding spherical sonic-boom shockwaves, heat-refracting air distortion ripples, and cascading magma-like fissure energy cracks.\n- <Subject 5>: Massive industrial mechanical quad-legged titan behemoth featuring heavily weathered red armor plates, exposed mechanical joints, massive dark hydraulic pistons, and a blinding, glowing orange-red molten energy reactor core embedded directly in its chest center.\n- <Subject 6>: Densely packed swarms of quadrupedal mechanical arachnid drone units with high-gloss dark steel and crimson-red armor plating, glowing red visor optics, articulated mechanical spider legs, low-slung aggressive swarm movement, and mounted high-frequency plasma micro-missile launchers firing dense torrents of glowing energy projectiles.\n\nsummary:\nAn expanded 17.5-second multi-shot combat sequence showcasing <Subject 1> weaving and slicing through overwhelmingly dense swarms of <Subject 6> and engaging <Subject 5> on <Subject 2>. The sequence features an intense barrage of enemy projectile fire, fluid weaving sword strikes, a side-profile glance as she snaps her fingers to initiate a delayed blanket explosion, and a titan showdown where she overcharges her blade, detonates the mech's core, and stands facing away into the horizon in 1.0x real-time speed. Paired with dynamic ambiental soundscapes, continuous heavy combat Foley, layered explosion booms, and an epic cinematic orchestra score.\n\nretention_analysis:\n<Subject 1> maintains her facial structure, pale skin, black bangs with teal hair tips, black leather tactical battle attire, and orange-white superheated mechanical greatsword across all 35 shots. <Subject 2> preserves the desert ruins, wind turbines, sand dunes, and dust haze. <Subject 3> ensures consistent UE5.4 Path Tracing CG aesthetic, PBR materials, and 3-part energy physics. <Subject 4> retains the fiery thermal explosion physics. <Subject 5> reflects the red armored mechanical titan with its chest reactor. <Subject 6> maintains the quadrupedal mechanical red arachnid drone swarm with enhanced projectile barrage capabilities.\n\ndetailed_description:\nThe target video is a 17.5-second high-pacing combat sequence consisting of 35 rapid cinematic shot cuts rendered in raw 1.0x real-time speed with dynamic camera moves, 3-part hybrid energy trails, high shutter clarity, heat-wave refraction, and zero slow-motion.\n\n[Shot 01] (00:00.000 - 00:00.500): Extreme low-angle tracking shot of <Subject 1> sliding across sun-scorched sand, dragging her greatsword, leaving a deep furrow of melted glass particles while dodging incoming plasma projectile trails from <Subject 6>.\n[Shot 02] (00:00.500 - 00:01.000): Medium side shot of <Subject 1> sprinting through desert haze, weaving dynamically between hundreds of swarming arachnid drones of <Subject 6> as plasma bursts detonate around her feet.\n[Shot 03] (00:01.000 - 00:01.500): Dynamic wide tracking shot as she swings a 50% super-compressed fan-shaped orange-gold arc, slicing through a dense cluster of mechanical drones of <Subject 6>.\n[Shot 04] (00:01.500 - 00:02.000): Low-angle camera tracking behind <Subject 1> weaving right and left through endless rows of crawling drones on <Subject 2>, parrying close-range plasma fire with her heavy blade.\n[Shot 05] (00:02.000 - 00:02.500): Center close-up on <Subject 1> leaping through a dense barrage of heat-refracting thermal projectiles, her leather jacket gleaming under <Subject 3>.\n[Shot 06] (00:02.500 - 00:03.000): Low-angle view looking up as she soars high into the sky, holding her glowing mechanical greatsword with both hands above the incoming missile streams.\n[Shot 07] (00:03.000 - 00:03.500): Low tracking shot of <Subject 1> landing directly in the center of the dense drone swarm, unleashing a 360-degree whirlwind flame slash that shreds dozens of surrounding red armor units into flying embers.\n[Shot 08] (00:03.500 - 00:04.000): Skyward camera view of <Subject 1> suspended at the apex of a second leap, raising her superheated sword as orange-white hydraulic mechanisms pump furiously.\n[Shot 09] (00:04.000 - 00:04.500): High-angle crane shot looking down as a massive vertical beam of golden compressed sword qi slams into the desert floor, vaporizing a giant wave of oncoming arachnid drones.\n[Shot 10] (00:04.500 - 00:05.000): Low-angle centered shot of <Subject 1> planting her sword into a cracked, glowing seal on the ground, sending high-pressure thermal shockwaves tearing through the front line of <Subject 6>.\n[Shot 11] (00:05.000 - 00:05.500): Fast-paced over-the-shoulder tracking shot as <Subject 1> dashes deep into the thickest part of <Subject 6>, slicing metal legs and deflective hulls with rapid low-cleave strikes.\n[Shot 12] (00:05.500 - 00:06.000): High-speed side tracking shot following <Subject 1> zig-zagging fluidly between massive waves of mechanical spider units while continuous plasma artillery blasts explode in her wake.\n[Shot 13] (00:06.000 - 00:06.500): Mid-shot vaulting off the back of an armored drone, deflecting three high-velocity energy projectiles in mid-air with the broadside of her glowing blade.\n[Shot 14] (00:06.500 - 00:07.000): Cinematic profile medium shot: camera pans tightly to her side as <Subject 1> turns her head looking backward over her shoulder (side-profile glance), her sharp eyes glinting cold and expressionless as her gloved hand executes a crisp finger snap.\n[Shot 15] (00:07.000 - 00:07.500): Ultra-wide shockwave shot: a brief beat after her finger snap, an overcharged thermal chain-reaction triggers across the entire swarm field, detonating all surrounding mechanical drones of <Subject 6> into a vast ocean of massive fireballs.\n[Shot 16] (00:07.500 - 00:08.000): Full-body front tracking shot as <Subject 1> walks forward calmly past the erupting explosion cloud, her teal-tipped hair fluttering as she drags her glowing greatsword along the sand.\n[Shot 17] (00:08.000 - 00:08.500): Wide shot with <Subject 1> walking forward as a giant cloud of volumetric smoke and sand settles over distant wind turbines.\n[Shot 18] (00:08.500 - 00:09.000): Rear wide shot looking toward crumbling stone arch ruins on <Subject 2> as heavy mechanical thuds shake the desert ground.\n[Shot 19] (00:09.000 - 00:09.500): Low-angle wide shot as the red mechanical titan behemoth of <Subject 5> steps forward with massive hydraulic legs, crushing dust and rock beneath it.\n[Shot 20] (00:09.500 - 00:10.000): Low-angle shot behind <Subject 1> readies her sword as hydraulic gears glow and sparks flare from her blade edges.\n[Shot 21] (00:10.000 - 00:10.500): Over-the-shoulder view of <Subject 1> standing defiant as the glowing orange chest reactor of <Subject 5> looms directly above her.\n[Shot 22] (00:10.500 - 00:11.000): Low-angle view looking past <Subject 1> as <Subject 5> slams down a giant red mechanical limb, sending a massive cloud of sand blasting into the frame.\n[Shot 23] (00:11.000 - 00:11.500): Rear low shot as <Subject 1> activates a glowing orange shield barrier to absorb and deflect the massive mechanical fist impact of <Subject 5>.\n[Shot 24] (00:11.500 - 00:12.000): Ultra-low tracking shot following <Subject 1> sliding under the quad-legged chassis of <Subject 5>, dragging her trailing superheated blade with intense heat refraction.\n[Shot 25] (00:12.000 - 00:12.500): Fast dolly shot under the red armored underbelly of <Subject 5> as <Subject 1> shoots past at extreme speed, leaving a glowing thermal trail on the desert sand.\n[Shot 26] (00:12.500 - 00:13.000): Close-up shot of the glowing molten chest reactor of <Subject 5> pulsing furiously and tracking her position.\n[Shot 27] (00:13.000 - 00:13.500): Low side shot of <Subject 1> sliding on the sand and pivoting her leather boots to regain firm footing.\n[Shot 28] (00:13.500 - 00:14.000): Low-angle shot from behind as <Subject 1> leaps high toward the glowing orange core in the chest of <Subject 5>.\n[Shot 29] (00:14.000 - 00:14.500): High-angle shot as she drives her raised greatsword straight down into the chest core of <Subject 5>, creating white-orange burn scars that spread across its red armor plating.\n[Shot 30] (00:14.500 - 00:15.000): Extreme close-up of the greatsword embedding deep into the central energy core of <Subject 5>; <Subject 1> pulls the trigger mechanism on the handle, forcing internal hydraulic pumps to inject superheated thermal energy into the core.\n[Shot 31] (00:15.000 - 00:15.500): Low-angle upward shot as blinding white-orange power surges violently through the red armor seams of <Subject 5>, causing high-pressure plasma vents to blow off exterior metal plates.\n[Shot 32] (00:15.500 - 00:16.000): Tracking shot of <Subject 1> vaulting backward off the exploding chest chassis of <Subject 5>, performing a mid-air backflip through <Subject 4> with her black leather jacket and hair fluttering amidst flying armor fragments.\n[Shot 33] (00:16.000 - 00:16.500): Wide shockwave shot as the chest reactor core of <Subject 5> completely detonates into <Subject 4>, generating a massive 360-degree spherical ring of super-heated air that vaporizes surrounding rock ruins into dust.\n[Shot 34] (00:16.500 - 00:17.000): Low-angle wide establishing shot as the massive red mechanical frame of <Subject 5> collapses forward, cracking into glowing carbonized metal wreckage and hot ash clouds on the desert sand.\n[Shot 35] (00:17.000 - 00:17.500): Low-angle rear view focusing on <Subject 1> standing with her back turned to the camera, her black leather jacket and teal-tipped hair swaying gently in the desert breeze; she rests her greatsword as its superheated edge gradually cools down to dark steel, facing away into the desolate horizon while ash and smoke fall around her under <Subject 3>.\n\noverall_soundscape:\n- Diegetic Sound & Foley: Deep hydraulic mechanical clicks, sharp metallic sword unsheathing rings, crisp leather jacket movement rustles, heavy combat boot footfalls on sand and crushed rock, high-velocity plasma projectile whistling, metallic blade deflections, mechanical drone limb snapping, high-pressure hydraulic gear whining, and a sharp glove finger-snap click.\n- Explosions & Impact Sound Effects: Continuous low-frequency ground-shattering plasma explosions, high-energy thermal sizzle, massive multi-stage delayed chain-reaction explosion booms, supersonic shockwave crackles, tearing metal armor plates, high-velocity thermal core energy injection hiss, mega-reactor detonation blast reverberation, and deep bass sub-woofers accompanying collapsing titan metal debris.\n- Environmental Audio: Low howling desert wind dynamics, sandstorm grain whistling, crackling air heat distortion, falling hot ash debris drops, crumbling stone masonry reverberations, and distant wind turbine hums echoing across the open wasteland.\n\nnon_diegetic_music:\nHigh-tempo cinematic battle soundtrack featuring fast aggressive hybrid orchestral percussion, driving industrial synth brass, frantic rhythmic taiko drums, rising sub-bass drops, and sharp high-tension string ostinatos that swell continuously during the drone swarm combat, drop to a brief sudden muted silence at the finger snap (00:06.800), explode into an immense bass drop for the mega detonation, and conclude with an epic, low-pitched melancholic brass motif as the titan falls."
+      },
+      {
+       "label": "1采分辨率默认0.4太高会失败 (aspect_ratio)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "1采分辨率默认0.4太高会失败 (megapixels)",
+       "default": 0.4
+      },
+      {
+       "label": "2采倍率 (value)",
+       "default": 1.5
+      },
+      {
+       "label": "参考图 3",
+       "default": null
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      },
+      {
+       "label": "参考图 5",
+       "default": null
+      },
+      {
+       "label": "参考图 6",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U08",
+     "ability": "多图参考双采样",
+     "biz": "高要求分镜视频",
+     "note": "",
+     "runs": 1,
+     "params": [
+      {
+       "label": "1采-只改宽高比 (aspect_ratio)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "1采-只改宽高比 (megapixels)",
+       "default": 0.4
+      },
+      {
+       "label": "value (节点 8)",
+       "default": 10
+      },
+      {
+       "label": "2采和1采宽高比要一致 (aspect_ratio)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "2采和1采宽高比要一致 (megapixels)",
+       "default": 1
+      },
+      {
+       "label": "提示词 (节点 103)",
+       "default": "subject_definitions:\n\n<Subject 1> is the East Asian woman from the left side of <Picture 1>, featuring hyper-detailed realistic skin texture, long wavy dark brown hair tied in a half-up ponytail, wearing a light lime-green form-fitting long-sleeved mock-neck athletic top, tight brown high-waisted yoga leggings, white crew socks with striped and floral accent details, white thick-soled chunky sneakers, with voluptuous hourglass body proportions featuring a significantly fuller bust line and prominent curvy glute silhouette while maintaining her facial features and visual design from the reference image.\n\n<Subject 2> is the muscular Xianxia warrior mage from the right side of <Picture 1>, featuring intense dark eyes, thick eyebrows, a full dark beard and mustache, a red ritual mark on his forehead, long flowing dark hair bound by an ornate golden headpiece, an open-chested beige silk combat robe revealing a heavily defined muscular torso, ornate bronze-and-gold carved pauldrons and vambraces, a large oversized black prayer bead necklace draped across his neck and waist, a gold filigree belt with hanging tassel pendants, and realistic human skin texture with glowing spark motes exactly from the reference image.\n\n<Subject 3> is a clear baby milk bottle filled with white milk, used as the central prop in the interaction.\n\n<Audio 2> is the voice-timbre reference for <Subject 2> (S1).\n<Audio 1> is the voice-timbre reference for <Subject 1> (S2).\n\n\nsummary:\n\n[reference generation + audio reference] The target video is a short live-action cinematic fantasy scene in a sunlit lakeside park. <Subject 1>, featuring a voluptuous hourglass figure with enhanced bust and glute proportions, stands with her back to the camera, resting one leg on a park bench while stretching her hamstrings in form-fitting leggings and holding <Subject 3>. <Subject 2> walks up from behind to ask for a baby bottle, prompting <Subject 1> to turn around, hand him the bottle, and dismiss him. <Subject 2> becomes happy and thanks her. <Picture 1> provides the visual reference for both <Subject 1> and <Subject 2>, while <Audio 1> and <Audio 2> provide their respective voice references.\n\n\nretention_analysis:\n\n<Subject 1> (appears in [Shot 1], [Shot 2]): fully_preserved - preserve her long wavy hair, lime-green athletic top, brown high-waisted yoga leggings, white sneakers, facial features, voluptuous hourglass figure with a prominent bust line and curvy glute silhouette from the updated description.\n\n<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - preserve his character identity, dark beard, forehead mark, golden headpiece, open-chested combat robe, bronze pauldrons, oversized prayer beads, muscular physique, and realistic live-action human appearance from <Picture 1>.\n\n<Subject 3> (appears in [Shot 1], [Shot 2], [Shot 3]): modified - replace the cigarette with a clear baby milk bottle as the central prop, maintaining consistent scale and positioning during the exchange.\n\n<Audio 1>: reference - its vocal timbre guides the dialogue delivery of <Subject 1> without copying the original signal.\n\n<Audio 2>: reference - its vocal timbre guides the dialogue delivery of <Subject 2> without copying the original signal.\n\n\ndetailed_description:\n\nThe target video uses a realistic, cinematic live-action fantasy film style with crisp daylight, natural lake water reflections, realistic athletic fabric and metallic textures, fine skin pore details, subtle depth of field, fluid 1.0x real-time human movement, and simple editorial cuts. The outdoor lakeside park environment features clear blue skies, green grassy lawns, park benches, distant trees, and calm water as seen in <Picture 1>. Keep the visual design of both referenced characters consistent throughout. Use distinct shot changes rather than smooth cinematic camera movement.\n\n[Shot 1] A medium-full shot in a sunny lakeside park clearing. The shot is framed from behind <Subject 1>, the woman in athletic yoga wear, as she stands facing away from the camera. She rests her right sneaker high on the seat of a wooden park bench, leaning her torso forward to stretch her hamstring. Her back, narrow waist, and voluptuous full glutes—tightly sculpted in her brown high-waisted yoga leggings—are prominently centered in the frame. She casually holds <Subject 3> by its cap in one hand near her hip. <Subject 2>, the muscular warrior mage in his open silk robe and bronze pauldrons, walks up from behind into the frame. As he approaches her, <Subject 2> (S1), using the voice timbre referenced from <Audio 2>, politely asks, <d>[Chinese] 小姐姐，我家娃饿哭了，你可有吃食？</d>\n\n[Shot 2] At 00:02.000, cut to a medium close-up focused on <Subject 1> as she lowers her leg from the bench and pivots her body around to face the camera and <Subject 2>, highlighting her full, voluptuous bust silhouette under the tight lime-green top. Looking mildly puzzled yet relaxed, she casually extends <Subject 3> toward him with her hand. Her expression remains calm and slightly exhausted after her workout. <Subject 1> (S2), using the voice timbre referenced from <Audio 1>, says casually, <d>[Chinese] 给，热的，拿去给宝宝吧。</d> Keep the baby bottle clearly visible as it is handed over.\n\n[Shot 3] At 00:03.700, cut to a medium close-up of <Subject 2>. He immediately becomes cheerful after receiving <Subject 3>. His stern eyes brighten, his bearded face lights up with a broad grin, and he cradles the baby bottle carefully in his large bronze-armored hand. He gives a small enthusiastic nod toward <Subject 1> and says brightly, <d>[Chinese] 谢谢小姐姐，一会还你奶瓶</d> End on his happy, beaming expression.\n\nCamera and editing: medium-full rear-angle shot framing her leg-on-bench stretch pose for the opening, hard cut to a medium close-up as <Subject 1> turns around, then hard cut to a medium close-up focused on <Subject 2>. No wide establishing shot, no smooth panning, no orbiting camera, and no long continuous camera movement.\n\nVisual style: cinematic realistic live-action, high dynamic range, natural depth-of-field blur, crisp realistic micro-expressions, authentic fabric and leather folds, soft sunlight contrast, consistent character proportions and clothing details.\n\n\noverall_soundscape:\n\nLakeside park outdoor ambience, gentle water lap against the shore, soft breeze rustling tree leaves, shoe scraping on wooden bench plank, subtle heavy footsteps on grass, stretch fabric tension, armor creak, and faint sloshing sound inside the milk bottle. Keep both character voices clean and clearly separated. No overlapping dialogue.\n\n\nnon_diegetic_music:\n\nLight relaxed acoustic guitar fused with subtle traditional flute notes, creating a warm, slightly comedic, and lighthearted mood."
+      },
+      {
+       "label": "参考图 1",
+       "default": null
+      },
+      {
+       "label": "参考图 2",
+       "default": null
+      },
+      {
+       "label": "参考音频 1",
+       "default": null
+      },
+      {
+       "label": "参考音频 2",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U07-A",
+     "ability": "多图参考生视频(35节点)",
+     "biz": "角色一致性视频",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "value (节点 312)",
+       "default": ""
+      },
+      {
+       "label": "value (节点 323)",
+       "default": 5
+      },
+      {
+       "label": "自定义宽 (节点 374)",
+       "default": 480
+      },
+      {
+       "label": "自定义高 (节点 374)",
+       "default": 480
+      },
+      {
+       "label": "参考图 1",
+       "default": null
+      },
+      {
+       "label": "参考图 2",
+       "default": null
+      },
+      {
+       "label": "参考图 3",
+       "default": null
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      },
+      {
+       "label": "参考图 5",
+       "default": null
+      },
+      {
+       "label": "参考图 6",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U30",
+     "ability": "多参考图生视频(52节点大流程)",
+     "biz": "复杂场景视频",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "noise_seed (节点 63)",
+       "default": 511983912427423
+      },
+      {
+       "label": "aspect_ratio (节点 73)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "megapixels (节点 73)",
+       "default": 0.7000000000000001
+      },
+      {
+       "label": "value (节点 74)",
+       "default": 10
+      },
+      {
+       "label": "PrimitiveStringMultiline-提示词",
+       "default": "subject_definitions:\n<Subject 1> is the female cyber-Chinese assassin from <Picture 1>, preserving her elegant black-and-red combat dress, fitted dark armored costume, metallic shoulder details, red fabric accents, turquoise ornamental highlights, elaborate dark updo, ornate hair accessories, long red tassel earrings, pale complexion, and sharp focused expression. She carries a dark folding fan with metallic and red decorative details, used as a close-range combat prop. The character-sheet layout, borders, labels, and graphic text from the reference are not part of the target video.\n\n<Subject 2> is the female cyber-Chinese combat operative from <Picture 2>, preserving her white, black, teal, and antique-gold costume, translucent flowing outer sleeves, intricate hair ornaments, dark updo, teal jewelry, mechanical shoulder and back details, pale complexion, and calm but determined expression. She carries a distinctive teal-and-gold umbrella-like weapon with a rigid shaft and mechanical decorative structure, used as a defensive and striking prop. The character-sheet layout, borders, labels, and graphic text from the reference are not part of the target video.\n\n<Subject 3> is a large passenger or transport aircraft flying at high altitude above a vast layer of clouds. The fight takes place on the broad upper surface of one aircraft wing, featuring riveted metal panels, structural seams, aerodynamic flaps, a visible engine nacelle near the wing root, intense airflow, cold blue sky, rapidly moving clouds below, and strong aircraft vibration.\n\n<Picture 1> is the character-design reference for <Subject 1>, defining her black-and-red cyber-Chinese costume, hairstyle, accessories, facial appearance, proportions, and folding-fan weapon.\n<Picture 2> is the character-design reference for <Subject 2>, defining her white-teal-gold cyber-Chinese costume, hairstyle, accessories, facial appearance, proportions, and umbrella-like weapon.\n\nsummary:\n[reference generation] A 10-second uninterrupted live-action Hollywood action sequence shows <Subject 1> and <Subject 2> engaged in an extremely fast and forceful close-quarters fight on the wing of a high-speed aircraft flying above the clouds. The sequence is one continuous take with no cuts. The action structure is: brief silent standoff, simultaneous explosive rush, rapid hand-to-hand and weapon-assisted exchanges, a powerful collision, a short realistic bullet-time camera orbit, and an immediate return to full speed. The camera moves with extreme kinetic energy along the aircraft wing, using rapid backward tracking, low-angle pursuit, aggressive orbiting, whip pans, sudden tilts, impact jolts, and a final pullback. The visual style is realistic live-action action cinema, not anime. No dialogue, no subtitles, no captions, no logos, no watermarks, no background music, no blood, and no gore.\n\nretention_analysis:\n<Subject 1> (appears continuously throughout the single take): fully_preserved - retain the black-and-red cyber-Chinese costume, fitted silhouette, metallic details, red accents, turquoise ornaments, elaborate updo, red tassel earrings, folding-fan weapon, and sharp determined expression.\n<Subject 2> (appears continuously throughout the single take): fully_preserved - retain the white-black-teal-gold cyber-Chinese costume, translucent outer sleeves, elaborate hair ornaments, teal jewelry, mechanical shoulder details, umbrella-like weapon, and calm focused expression.\n<Subject 3> (appears continuously throughout the single take): fully_preserved - retain the aircraft wing, riveted metal surface, engine nacelle, high-altitude wind, rapidly moving clouds, blue sky, and strong aircraft vibration.\n<Picture 1> (reference only): guides the appearance, costume, accessories, and weapon continuity of <Subject 1>; do not reproduce the character-sheet layout or its text.\n<Picture 2> (reference only): guides the appearance, costume, accessories, and weapon continuity of <Subject 2>; do not reproduce the character-sheet layout or its text.\n\ndetailed_description:\nThe entire 10-second video is one uninterrupted continuous live-action take. There are no cuts, no jump cuts, no hidden edits, no fade transitions, no wipes, no black frames, no camera teleportation, and no scene reset.\n\nThe visual treatment is realistic high-budget Hollywood action cinematography. The rhythm of the action is inspired only by the escalation pattern of Japanese action animation: a brief silent confrontation, an explosive simultaneous rush, a dense chain of rapid attacks and counters, a dramatic impact peak, a short bullet-time moment, and an immediate return to full speed. Do not use anime rendering, cel shading, manga speed lines, cartoon effects, supernatural powers, glowing energy, or illustrated motion.\n\nThe camera must be highly dynamic throughout the uninterrupted take. It races backward along the wing, dives close to the metal surface, circles around the fighters, changes height rapidly, performs whip pans around impacts, tilts with spinning attacks, and pulls back dramatically at the end. All camera changes are achieved through continuous physical movement rather than editing. Keep the action readable and maintain consistent positions relative to the wing, engine, horizon, and clouds.\n\n[Single Continuous Take | 00:00.000–00:10.000]\n\n[00:00.000–00:01.300]\nBegin with a low wide shot moving rapidly along the aircraft wing, only a few centimeters above the vibrating metal surface. Rivets, structural seams, and thin condensation streaks pass close to the lens. The engine nacelle is visible near the wing root, while clouds race far below.\n\n<Subject 1> and <Subject 2> stand approximately five meters apart on the broad central section of the wing. <Subject 1>, in the black-and-red costume from <Picture 1>, holds her closed folding fan near her chest. <Subject 2>, in the white-teal-gold costume from <Picture 2>, holds her folded umbrella-like weapon diagonally in front of her.\n\nThe camera performs a tense, fast 120-degree orbit around them while gradually closing the distance. Their clothing, hair ornaments, tassels, and translucent sleeves whip violently in the aircraft wind. Both remain completely silent, shifting their weight into low combat stances. The confrontation lasts only 1.3 seconds and feels intensely compressed and dangerous.\n\n[00:01.300–00:01.850]\nAt exactly 00:01.300, both characters suddenly launch toward each other at full speed. The camera instantly accelerates backward along the wing, keeping both fighters in the same frame as the wing surface rushes beneath them.\n\n<Subject 1> snaps open the folding fan and uses it to deflect <Subject 2>'s first strike. <Subject 2> rotates the umbrella-like weapon and drives its shaft toward <Subject 1>'s torso. <Subject 1> twists aside by a few centimeters. The weapons collide with a hard metallic impact. The camera whip-pans around the collision without cutting, jolting from the force of the contact.\n\n[00:01.850–00:06.300]\nThe camera flows directly through the collision and becomes an aggressive close-range pursuit camera inside the fight. The choreography is extremely rapid, with almost no idle time.\n\n<Subject 1> performs a fast three-hit combination using the folding fan: a slash-like fan strike toward the shoulder, a short hook across the forearm, and a direct palm strike to the chest. <Subject 2> blocks the fan with the umbrella shaft, absorbs the palm strike, and immediately counters with a rapid horizontal sweep.\n\nThe camera drops to wing level and tracks their footwork as they pivot, slide, and brace against the aircraft surface. <Subject 1> leaps over the sweep, lands on one hand, rotates around her planted palm, and kicks <Subject 2>'s upper torso. <Subject 2> is driven backward but hooks the umbrella shaft into a structural seam and uses it to stop her slide.\n\nThe camera circles tightly around <Subject 2> and rises sharply as she launches forward again. She uses the umbrella-like weapon as a short staff, delivering two rapid strikes toward <Subject 1>'s ribs and shoulder. <Subject 1> blocks the first strike with the open fan, absorbs the second against her forearm guard, and immediately closes the distance.\n\n<Subject 1> performs a fast elbow strike, knee feint, and low sweeping kick. <Subject 2> blocks the elbow with her mechanical forearm, rotates under the knee, and jumps over the sweep. The camera spins with their bodies in a fast 180-degree roll while keeping the aircraft horizon and engine nacelle visible.\n\n<Subject 1> briefly hooks one arm around <Subject 2>'s upper neck and shoulder in a rapid standing choke-control maneuver, using it only to redirect balance. The hold lasts less than 0.6 seconds. The camera pushes tightly into the grappling exchange, then dives underneath their locked arms as <Subject 2> grips <Subject 1>'s forearm and forcefully breaks the control.\n\n<Subject 2> immediately performs an arm drag, turns <Subject 1>, and drives her shoulder-first onto the metal wing. The impact creates a sharp metallic resonance and a burst of condensation and dust. <Subject 1> does not remain down; she plants her hand on the wing, rolls through the impact, and rises into a spinning counterattack.\n\nThe camera tracks the spin at extremely close range, then pulls backward just enough to reveal <Subject 1>'s heel striking <Subject 2>'s chest armor. <Subject 2> slides backward across the wing, producing a brief trail of harmless sparks from armor scraping against metal.\n\n[00:06.300–00:07.500]\nThe camera rushes laterally alongside the sliding android, then snaps around the engine nacelle and reacquires both fighters in one continuous movement. <Subject 2> stops herself with the umbrella-like weapon, launches forward, and thrusts the weapon shaft toward <Subject 1>.\n\n<Subject 1> traps the shaft with the folding fan and her forearm, pulls <Subject 2> off line, and strikes with a powerful close-range punch. <Subject 2> counters with an armored shoulder strike. Both fighters collide violently at the center of the wing. The camera drives directly into the collision and rotates around them as the aircraft wing vibrates under the force.\n\n[00:07.500–00:08.700]\nImmediately after the major collision, enter a brief realistic live-action bullet-time effect within the same uninterrupted take.\n\nTime slows dramatically for approximately 1.2 seconds. The camera performs a smooth 240-degree arc around the fighters, starting close to the wing surface, rising past their shoulders, and circling behind them. The aircraft, engine nacelle, wing structure, horizon, and cloud layer remain spatially consistent.\n\nThe two characters are suspended at the exact moment of impact. <Subject 1>'s black-and-red fabric, red tassels, hair ornaments, and folding fan remain suspended in the turbulent air. <Subject 2>'s translucent sleeves, teal ornaments, hair accessories, and umbrella-like weapon remain suspended as well. Show realistic compression in their shoulders and arms, armor vibration, strained fabric, loose hair strands, condensation droplets, and particles floating in the air.\n\nThis is only a realistic cinematic time-dilation camera effect. No supernatural power, no glowing aura, no energy wave, no anime freeze frame, no manga graphics, and no visual transformation.\n\n[00:08.700–00:10.000]\nAt exactly 00:08.700, return abruptly to full speed. The suspended air particles and condensation burst outward as both characters are thrown apart.\n\n<Subject 1> slides backward across the wing, catches a structural seam with one hand, spins, and stops herself before reaching the wing edge. <Subject 2> lands heavily on one knee, her armor scraping the metal and creating a brief shower of harmless sparks, then immediately rises.\n\nThe camera accelerates backward and spirals upward, transitioning from a close action perspective to a dramatic wide view of both fighters on the aircraft wing, the engine nacelle, the aircraft fuselage, and the clouds far below. Both characters face each other in low combat stances, weapons ready, clothing and hair violently streaming in the high-altitude wind.\n\nEnd on a powerful wide composition that clearly shows they are still on the moving aircraft wing and ready for another exchange. No text appears anywhere in the frame.\n\nCamera continuity requirements:\nThe camera must never cut. Every angle change must be created by continuous tracking, orbiting, tilting, rolling, whipping, diving, craning, or physically motivated movement around the fighters. The camera may pass close behind a character, the engine nacelle, or a brief cloud of condensation, but it must immediately preserve the same spatial continuity. Never teleport the camera, reset the perspective, lose the fighters, or change the aircraft wing orientation.\n\noverall_soundscape:\nOnly realistic diegetic sound: continuous jet-engine roar, violent high-altitude wind, aerodynamic turbulence, aircraft structural vibration, metal wing resonance, rapid footsteps on the wing, sliding shoes, fabric whipping, tassels and ornaments rattling, folding-fan snaps, umbrella-weapon mechanical clicks, metallic weapon impacts, hard punches, elbows, knees, shoulder collisions, armor scraping, short exertion breaths, and brief harmless sparks.\n\nDuring the bullet-time sequence from 00:07.500 to 00:08.700, stretch and muffle the engine roar and wind into a deep resonant sound layer while preserving the heavy impact vibration. At 00:08.700, restore the engine, wind, and combat impacts to full speed with a sudden sonic acceleration. No dialogue, no voiceover, no crowd noise, no background music, and no cartoon-like sound effects.\n\nnon_diegetic_music:\nN/A. No background music, no soundtrack, no percussion, no orchestral score, and no musical crescendo."
+      },
+      {
+       "label": "参考图 5",
+       "default": null
+      },
+      {
+       "label": "参考图 6",
+       "default": null
+      },
+      {
+       "label": "参考图 7",
+       "default": null
+      },
+      {
+       "label": "参考图 8",
+       "default": null
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U32",
+     "ability": "多参考图生视频(33节点)",
+     "biz": "复杂场景视频",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "value (节点 27)",
+       "default": 10
+      },
+      {
+       "label": "分辨率 (aspect_ratio)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "分辨率 (megapixels)",
+       "default": 2
+      },
+      {
+       "label": "参考图 1",
+       "default": null
+      },
+      {
+       "label": "参考图 2",
+       "default": null
+      },
+      {
+       "label": "提示词 (节点 88)",
+       "default": "subject_definitions:\n<Subject 1> is the female cyber-Chinese assassin from <Picture 1>, preserving her elegant black-and-red combat dress, fitted dark armored costume, metallic shoulder details, red fabric accents, turquoise ornamental highlights, elaborate dark updo, ornate hair accessories, long red tassel earrings, pale complexion, and sharp focused expression. She carries a dark folding fan with metallic and red decorative details, used as a close-range combat prop. The character-sheet layout, borders, labels, and graphic text from the reference are not part of the target video.\n\n<Subject 2> is the female cyber-Chinese combat operative from <Picture 2>, preserving her white, black, teal, and antique-gold costume, translucent flowing outer sleeves, intricate hair ornaments, dark updo, teal jewelry, mechanical shoulder and back details, pale complexion, and calm but determined expression. She carries a distinctive teal-and-gold umbrella-like weapon with a rigid shaft and mechanical decorative structure, used as a defensive and striking prop. The character-sheet layout, borders, labels, and graphic text from the reference are not part of the target video.\n\n<Subject 3> is a large passenger or transport aircraft flying at high altitude above a vast layer of clouds. The fight takes place on the broad upper surface of one aircraft wing, featuring riveted metal panels, structural seams, aerodynamic flaps, a visible engine nacelle near the wing root, intense airflow, cold blue sky, rapidly moving clouds below, and strong aircraft vibration.\n\n<Picture 1> is the character-design reference for <Subject 1>, defining her black-and-red cyber-Chinese costume, hairstyle, accessories, facial appearance, proportions, and folding-fan weapon.\n<Picture 2> is the character-design reference for <Subject 2>, defining her white-teal-gold cyber-Chinese costume, hairstyle, accessories, facial appearance, proportions, and umbrella-like weapon.\n\nsummary:\n[reference generation] A 10-second uninterrupted live-action Hollywood action sequence shows <Subject 1> and <Subject 2> engaged in an extremely fast and forceful close-quarters fight on the wing of a high-speed aircraft flying above the clouds. The sequence is one continuous take with no cuts. The action structure is: brief silent standoff, simultaneous explosive rush, rapid hand-to-hand and weapon-assisted exchanges, a powerful collision, a short realistic bullet-time camera orbit, and an immediate return to full speed. The camera moves with extreme kinetic energy along the aircraft wing, using rapid backward tracking, low-angle pursuit, aggressive orbiting, whip pans, sudden tilts, impact jolts, and a final pullback. The visual style is realistic live-action action cinema, not anime. No dialogue, no subtitles, no captions, no logos, no watermarks, no background music, no blood, and no gore.\n\nretention_analysis:\n<Subject 1> (appears continuously throughout the single take): fully_preserved - retain the black-and-red cyber-Chinese costume, fitted silhouette, metallic details, red accents, turquoise ornaments, elaborate updo, red tassel earrings, folding-fan weapon, and sharp determined expression.\n<Subject 2> (appears continuously throughout the single take): fully_preserved - retain the white-black-teal-gold cyber-Chinese costume, translucent outer sleeves, elaborate hair ornaments, teal jewelry, mechanical shoulder details, umbrella-like weapon, and calm focused expression.\n<Subject 3> (appears continuously throughout the single take): fully_preserved - retain the aircraft wing, riveted metal surface, engine nacelle, high-altitude wind, rapidly moving clouds, blue sky, and strong aircraft vibration.\n<Picture 1> (reference only): guides the appearance, costume, accessories, and weapon continuity of <Subject 1>; do not reproduce the character-sheet layout or its text.\n<Picture 2> (reference only): guides the appearance, costume, accessories, and weapon continuity of <Subject 2>; do not reproduce the character-sheet layout or its text.\n\ndetailed_description:\nThe entire 10-second video is one uninterrupted continuous live-action take. There are no cuts, no jump cuts, no hidden edits, no fade transitions, no wipes, no black frames, no camera teleportation, and no scene reset.\n\nThe visual treatment is realistic high-budget Hollywood action cinematography. The rhythm of the action is inspired only by the escalation pattern of Japanese action animation: a brief silent confrontation, an explosive simultaneous rush, a dense chain of rapid attacks and counters, a dramatic impact peak, a short bullet-time moment, and an immediate return to full speed. Do not use anime rendering, cel shading, manga speed lines, cartoon effects, supernatural powers, glowing energy, or illustrated motion.\n\nThe camera must be highly dynamic throughout the uninterrupted take. It races backward along the wing, dives close to the metal surface, circles around the fighters, changes height rapidly, performs whip pans around impacts, tilts with spinning attacks, and pulls back dramatically at the end. All camera changes are achieved through continuous physical movement rather than editing. Keep the action readable and maintain consistent positions relative to the wing, engine, horizon, and clouds.\n\n[Single Continuous Take | 00:00.000–00:10.000]\n\n[00:00.000–00:01.300]\nBegin with a low wide shot moving rapidly along the aircraft wing, only a few centimeters above the vibrating metal surface. Rivets, structural seams, and thin condensation streaks pass close to the lens. The engine nacelle is visible near the wing root, while clouds race far below.\n\n<Subject 1> and <Subject 2> stand approximately five meters apart on the broad central section of the wing. <Subject 1>, in the black-and-red costume from <Picture 1>, holds her closed folding fan near her chest. <Subject 2>, in the white-teal-gold costume from <Picture 2>, holds her folded umbrella-like weapon diagonally in front of her.\n\nThe camera performs a tense, fast 120-degree orbit around them while gradually closing the distance. Their clothing, hair ornaments, tassels, and translucent sleeves whip violently in the aircraft wind. Both remain completely silent, shifting their weight into low combat stances. The confrontation lasts only 1.3 seconds and feels intensely compressed and dangerous.\n\n[00:01.300–00:01.850]\nAt exactly 00:01.300, both characters suddenly launch toward each other at full speed. The camera instantly accelerates backward along the wing, keeping both fighters in the same frame as the wing surface rushes beneath them.\n\n<Subject 1> snaps open the folding fan and uses it to deflect <Subject 2>'s first strike. <Subject 2> rotates the umbrella-like weapon and drives its shaft toward <Subject 1>'s torso. <Subject 1> twists aside by a few centimeters. The weapons collide with a hard metallic impact. The camera whip-pans around the collision without cutting, jolting from the force of the contact.\n\n[00:01.850–00:06.300]\nThe camera flows directly through the collision and becomes an aggressive close-range pursuit camera inside the fight. The choreography is extremely rapid, with almost no idle time.\n\n<Subject 1> performs a fast three-hit combination using the folding fan: a slash-like fan strike toward the shoulder, a short hook across the forearm, and a direct palm strike to the chest. <Subject 2> blocks the fan with the umbrella shaft, absorbs the palm strike, and immediately counters with a rapid horizontal sweep.\n\nThe camera drops to wing level and tracks their footwork as they pivot, slide, and brace against the aircraft surface. <Subject 1> leaps over the sweep, lands on one hand, rotates around her planted palm, and kicks <Subject 2>'s upper torso. <Subject 2> is driven backward but hooks the umbrella shaft into a structural seam and uses it to stop her slide.\n\nThe camera circles tightly around <Subject 2> and rises sharply as she launches forward again. She uses the umbrella-like weapon as a short staff, delivering two rapid strikes toward <Subject 1>'s ribs and shoulder. <Subject 1> blocks the first strike with the open fan, absorbs the second against her forearm guard, and immediately closes the distance.\n\n<Subject 1> performs a fast elbow strike, knee feint, and low sweeping kick. <Subject 2> blocks the elbow with her mechanical forearm, rotates under the knee, and jumps over the sweep. The camera spins with their bodies in a fast 180-degree roll while keeping the aircraft horizon and engine nacelle visible.\n\n<Subject 1> briefly hooks one arm around <Subject 2>'s upper neck and shoulder in a rapid standing choke-control maneuver, using it only to redirect balance. The hold lasts less than 0.6 seconds. The camera pushes tightly into the grappling exchange, then dives underneath their locked arms as <Subject 2> grips <Subject 1>'s forearm and forcefully breaks the control.\n\n<Subject 2> immediately performs an arm drag, turns <Subject 1>, and drives her shoulder-first onto the metal wing. The impact creates a sharp metallic resonance and a burst of condensation and dust. <Subject 1> does not remain down; she plants her hand on the wing, rolls through the impact, and rises into a spinning counterattack.\n\nThe camera tracks the spin at extremely close range, then pulls backward just enough to reveal <Subject 1>'s heel striking <Subject 2>'s chest armor. <Subject 2> slides backward across the wing, producing a brief trail of harmless sparks from armor scraping against metal.\n\n[00:06.300–00:07.500]\nThe camera rushes laterally alongside the sliding android, then snaps around the engine nacelle and reacquires both fighters in one continuous movement. <Subject 2> stops herself with the umbrella-like weapon, launches forward, and thrusts the weapon shaft toward <Subject 1>.\n\n<Subject 1> traps the shaft with the folding fan and her forearm, pulls <Subject 2> off line, and strikes with a powerful close-range punch. <Subject 2> counters with an armored shoulder strike. Both fighters collide violently at the center of the wing. The camera drives directly into the collision and rotates around them as the aircraft wing vibrates under the force.\n\n[00:07.500–00:08.700]\nImmediately after the major collision, enter a brief realistic live-action bullet-time effect within the same uninterrupted take.\n\nTime slows dramatically for approximately 1.2 seconds. The camera performs a smooth 240-degree arc around the fighters, starting close to the wing surface, rising past their shoulders, and circling behind them. The aircraft, engine nacelle, wing structure, horizon, and cloud layer remain spatially consistent.\n\nThe two characters are suspended at the exact moment of impact. <Subject 1>'s black-and-red fabric, red tassels, hair ornaments, and folding fan remain suspended in the turbulent air. <Subject 2>'s translucent sleeves, teal ornaments, hair accessories, and umbrella-like weapon remain suspended as well. Show realistic compression in their shoulders and arms, armor vibration, strained fabric, loose hair strands, condensation droplets, and particles floating in the air.\n\nThis is only a realistic cinematic time-dilation camera effect. No supernatural power, no glowing aura, no energy wave, no anime freeze frame, no manga graphics, and no visual transformation.\n\n[00:08.700–00:10.000]\nAt exactly 00:08.700, return abruptly to full speed. The suspended air particles and condensation burst outward as both characters are thrown apart.\n\n<Subject 1> slides backward across the wing, catches a structural seam with one hand, spins, and stops herself before reaching the wing edge. <Subject 2> lands heavily on one knee, her armor scraping the metal and creating a brief shower of harmless sparks, then immediately rises.\n\nThe camera accelerates backward and spirals upward, transitioning from a close action perspective to a dramatic wide view of both fighters on the aircraft wing, the engine nacelle, the aircraft fuselage, and the clouds far below. Both characters face each other in low combat stances, weapons ready, clothing and hair violently streaming in the high-altitude wind.\n\nEnd on a powerful wide composition that clearly shows they are still on the moving aircraft wing and ready for another exchange. No text appears anywhere in the frame.\n\nCamera continuity requirements:\nThe camera must never cut. Every angle change must be created by continuous tracking, orbiting, tilting, rolling, whipping, diving, craning, or physically motivated movement around the fighters. The camera may pass close behind a character, the engine nacelle, or a brief cloud of condensation, but it must immediately preserve the same spatial continuity. Never teleport the camera, reset the perspective, lose the fighters, or change the aircraft wing orientation.\n\noverall_soundscape:\nOnly realistic diegetic sound: continuous jet-engine roar, violent high-altitude wind, aerodynamic turbulence, aircraft structural vibration, metal wing resonance, rapid footsteps on the wing, sliding shoes, fabric whipping, tassels and ornaments rattling, folding-fan snaps, umbrella-weapon mechanical clicks, metallic weapon impacts, hard punches, elbows, knees, shoulder collisions, armor scraping, short exertion breaths, and brief harmless sparks.\n\nDuring the bullet-time sequence from 00:07.500 to 00:08.700, stretch and muffle the engine roar and wind into a deep resonant sound layer while preserving the heavy impact vibration. At 00:08.700, restore the engine, wind, and combat impacts to full speed with a sudden sonic acceleration. No dialogue, no voiceover, no crowd noise, no background music, and no cartoon-like sound effects.\n\nnon_diegetic_music:\nN/A. No background music, no soundtrack, no percussion, no orchestral score, and no musical crescendo."
+      },
+      {
+       "label": "参考图 3",
+       "default": null
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      },
+      {
+       "label": "参考图 6",
+       "default": null
+      },
+      {
+       "label": "参考图 5",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U06-9图版API-V5",
+     "ability": "9参考图批量生视频",
+     "biz": "整集分镜批量",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "秒数 (value)",
+       "default": 5
+      },
+      {
+       "label": "上传图片 (节点 137)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 139)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 144)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 151)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 653)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 654)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 655)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 656)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 657)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U06-9图3音频-V5",
+     "ability": "9图+3音频批量",
+     "biz": "整集带声批量",
+     "note": "",
+     "runs": 2,
+     "params": [
+      {
+       "label": "value (节点 132)",
+       "default": 5
+      },
+      {
+       "label": "上传图片 (节点 137)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 139)",
+       "default": null
+      },
+      {
+       "label": "随机种子 (节点 142)",
+       "default": 731242627237534
+      },
+      {
+       "label": "上传图片 (节点 144)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 151)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 653)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 654)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 655)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 656)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U09-9图版API-V2",
+     "ability": "9参考图生视频V2(61节点)",
+     "biz": "整集分镜批量",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "秒数 (value)",
+       "default": 10
+      },
+      {
+       "label": "参考图 0",
+       "default": null
+      },
+      {
+       "label": "提示词 (value)",
+       "default": "subject_definitions:\n<Subject 1> is the young woman from <Picture 1>, serving as the blue-robed woman, with a pale complexion, long black hair arranged in an elaborate updo with side-falling strands, blue floral hair ornaments and delicate dangling chains, refined eye makeup, red lips, gold-and-blue earrings, layered necklaces, and an ornate blue-and-gold fitted bodice beneath translucent pale-blue wide sleeves and a long flowing skirt.\n<Subject 2> is the young man from <Picture 2>, serving as the black-robed man, with a pale complexion, long black hair tied high with a dark hair ornament, loose strands framing his face, straight brows, a calm serious expression, and layered black traditional robes with gray embroidered trim, wide sleeves, a waist belt with hanging metal ornaments, and dark wrist-covering fabric.\n<Subject 3> is the woman from <Picture 3>, serving as the red-robed woman, with a fair complexion, long black hair half tied into an updo with red floral hair ornaments and dangling beads, soft natural makeup, pearl-like earrings, a red embroidered collar, layered crimson robes with wide sleeves, a dark decorated waist sash, and long trailing red fabric ribbons.\n<Subject 4> is the snow-forest environment from <Picture 4>, serving as the meeting location, with a large dark-barked tree on the left, snow-covered branches densely filled with vivid red plum blossoms, a pale blue-white forest receding into mist, an uneven snowy ground, and continuously falling snow.\n\nsummary:\n[reference generation] Create a five-second cinematic Chinese fantasy encounter in a snowy plum-blossom forest: the blue-robed woman and black-robed man find the red-robed woman near the flowering tree, exchange urgent yet warm dialogue, and offer to help her prepare food, with strong character continuity and a poetic winter atmosphere.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - the pale complexion, elaborate black updo, blue floral ornaments, dangling jewelry, blue-and-gold bodice, translucent pale-blue sleeves, and long blue skirt are retained; only the pose, walking direction, and facial expression change.\n<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - the long tied black hair, pale serious face, layered black robes, gray embroidered trim, broad sleeves, waist belt, hanging ornaments, and dark wrist coverings are retained; only his movement and expression change.\n<Subject 3> (appears in [Shot 2], [Shot 3]): fully_preserved - the red floral hair ornaments, long black hair, pearl-like earrings, crimson embroidered robes, dark sash, wide sleeves, and trailing red ribbons are retained; only her initial facing direction and speaking gesture change.\n<Subject 4> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - the dark-barked plum tree, snow-covered red blossoms, misty blue-white forest, snowy ground, and falling snow are retained as the continuous environment; only framing and depth emphasis change.\n\ndetailed_description:\nCinematic high-detail Chinese fantasy drama, with a cool blue-white winter palette contrasted by saturated red blossoms and crimson robes. Use soft diffused snowfall light, shallow atmospheric depth, graceful controlled camera movement, realistic fabric motion, and seamless continuity between the four reference images.\n[Shot 1] A wide establishing shot shows the snow-covered forest path receding into pale mist, with the large red-plum tree anchoring the left side of the frame. <Subject 1> and <Subject 2> enter from the lower right and walk carefully through ankle-deep snow toward the distant flowering tree; her translucent blue sleeves and ribbons trail in the wind, while his black robes hang heavily and his long hair moves slightly. Snowflakes cross the lens in the foreground. The camera makes a slow forward dolly of moderate distance, keeping both figures in a balanced two-shot. Footsteps compress the snow, fabric rustles, and cold wind moves through bare branches. <Subject 4> supplies the full snowy plum-forest setting, while the visible costumes and silhouettes follow <Picture 1> and <Picture 2>.\n[Shot 2] At 00:01.700, cut to a medium-wide view beneath the plum tree. <Subject 3> stands several meters ahead near the center-left, partially framed by red blossoms, facing away from the approaching pair; her crimson sleeves and long trailing ribbons overlap the snowy ground. <Subject 1> and <Subject 2> stop in the right midground, visibly relieved. The camera slowly tracks left and pushes in, revealing the spatial relationship among all three characters. <Subject 1> (S1) steps forward, raises one hand slightly, and says with emotional relief, <d>[Chinese] 师姐，我终于找到你了。</d> Snowfall remains steady, with branches creaking softly and boots shifting in the snow. The character identities and costume details remain locked to <Picture 1>, <Picture 2>, and <Picture 3>.\n[Shot 3] At 00:03.250, a medium shot begins as <Subject 3> turns toward them, her face becoming clearly visible between red blossoms. She offers a gentle but practical expression and gathers one wide sleeve near her waist. <Subject 3> (S2) turns toward the pair and says, <d>[Chinese] 你们来了，群主刚睡下，我正准备给群主做饭去。</d> The camera performs a small clockwise arc around her, then widens to include the other two. <Subject 1> and <Subject 2> step beside her and lean forward together. \n<Subject 2> (S3) shout together, <d>[Chinese] 师姐我也来帮忙！</d> Their voices echo lightly through the forest as snow lands on their sleeves; the red blossoms, blue robe, black robe, and white landscape form the final balanced tableau.\n\noverall_soundscape:\nContinuous soft snowfall, a light wintry breeze passing through plum branches, occasional branch creaks, muted footsteps compressing powdery snow, gentle robe and sleeve rustling, and subtle snow displacement beneath the characters. Dialogue is clear and naturally reverberates in the open forest.\n\nnon_diegetic_music:\nN/A"
+      },
+      {
+       "label": "参考图 1",
+       "default": null
+      },
+      {
+       "label": "参考图 2",
+       "default": null
+      },
+      {
+       "label": "参考图 3",
+       "default": null
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      },
+      {
+       "label": "参考图 5",
+       "default": null
+      },
+      {
+       "label": "参考图 6",
+       "default": null
+      },
+      {
+       "label": "参考图 7",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-U17-9图1视频3音频V1-api",
+     "ability": "9图1视频3音频混合",
+     "biz": "整集打包",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "官方分辨率写法 (aspect_ratio)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "官方分辨率写法 (megapixels)",
+       "default": 0.9
+      },
+      {
+       "label": "时长 (value)",
+       "default": 5
+      },
+      {
+       "label": "放大倍率 (value)",
+       "default": 1.5
+      },
+      {
+       "label": "参考图 4",
+       "default": null
+      },
+      {
+       "label": "参考图 3",
+       "default": null
+      },
+      {
+       "label": "参考图 1",
+       "default": null
+      },
+      {
+       "label": "参考图 2",
+       "default": null
+      },
+      {
+       "label": "参考视频 1",
+       "default": null
+      },
+      {
+       "label": "参考音频 1",
+       "default": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "img",
+   "label": "🖼 图片生成（分镜/立绘/配图）",
+   "items": [
+    {
+     "id": "API-A01-文生图-Qwen2512高清放大",
+     "ability": "Qwen文生图·高清放大",
+     "biz": "知乎配图|公众号封面",
+     "note": "🔥出图主力",
+     "runs": 0,
+     "params": [
+      {
+       "label": "随机种子 (节点 3)",
+       "default": 325183347
+      },
+      {
+       "label": "提示词 (节点 187)",
+       "default": "亚洲女生，真人\nA photo-realistic portrait of a young Asian woman with long black hair, wearing a gray cardigan over a gray t-shirt. the woman is standing in the middle of the image, with her upper body facing the viewer. she has a neutral expression and is looking directly at the camera. her long straight black hair falls down her back, framing her face. the background is blurred, but it appears to be an outdoor setting with trees and greenery. the lighting is soft and natural, highlighting her delicate features and the texture of her hair. the image has a serene and contemplative atmosphere, with the woman's body slightly angled towards the left side of the frame.,naomi"
+      },
+      {
+       "label": "提示词 (节点 437)",
+       "default": "低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲"
+      },
+      {
+       "label": "value (节点 515)",
+       "default": 1280
+      },
+      {
+       "label": "value (节点 516)",
+       "default": 720
+      }
+     ]
+    },
+    {
+     "id": "API-C16-短剧文生图专用-支持场景-角色",
+     "ability": "短剧文生图(场景+角色)",
+     "biz": "驯疯男主分镜|短剧一致性好帧",
+     "note": "🔥驯疯男主专用",
+     "runs": 0,
+     "params": [
+      {
+       "label": "随机种子 (节点 22)",
+       "default": 34341318406080
+      },
+      {
+       "label": "提示词 (节点 49)",
+       "default": "真人写实风格，文艺电影高级构图，镜头呼吸感，沉浸式叙事氛围感拉满；柔和漫射自然光叠加经典伦勃朗光影，真实立体光影层次，光影斑驳错落，胶片颗粒质感，画面高级有故事感。景深层次自然；人物肌肤纹理真实细腻，原生真实肌肤质感，人物情态生动自然、情绪饱满。江湖故事感。侧身，古典仕女造型的少女，梳明代高发髻，点缀精致的珠花与绒花发饰，侧边一绺发束垂在前胸。身着明制汉服：复古低饱和莫兰迪色调。上身是明制复原款紫藤色暗纹柔软质感琵琶袖圆领衫，长至腿部，刺绣团花纹样，下身搭配明制浅姜黄色轻纱马面裙四季花卉纹样，裙摆垂坠飘逸。手持一柄雾蓝色缂丝团扇，扇面绣有折枝玉兰花纹样。姿态优雅，走出中式古宅，视线低垂含着一丝温婉的笑意。旁边秀丽双鬟侍女（明制交领衫外搭圆领长比甲下着百褶裙）轻撩珠帘，昏暗散光营造出宁静、怀旧的氛围，大光圈虚化背景，突出人物的立体轮廓与温婉气质，营造出慵懒随性的氛围感与沉浸式的现场感。"
+      },
+      {
+       "label": "value (节点 60)",
+       "default": 1920
+      },
+      {
+       "label": "value (节点 61)",
+       "default": 1024
+      }
+     ]
+    },
+    {
+     "id": "API-C18-豹豹喵呜制作-白玉AIO三采超高清写真生成",
+     "ability": "超高清写真三采样",
+     "biz": "角色立绘|封面",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "提示词 (节点 77)",
+       "default": "画面风格：自然写实摄影风格，采用高清晰度与高分辨率呈现，光影过渡柔和细腻，色彩还原真实且富有层次感，整体氛围清新自然，具有强烈的沉浸式视觉体验。核心元素：年轻的亚洲女性角色，身着白色蕾丝连衣裙，背景为茂密的森林环境，阳光透过树叶洒下斑驳光影，人物位于画面中心偏左位置，构图采用三分法与视觉引导线结合，前景为人物主体，中景为树干与植被，远景为模糊的树林轮廓，增强空间纵深感。具体内容：女性角色拥有深棕色长卷发，自然垂落肩头，面部五官精致，眼神温柔含笑，嘴唇微启，表情甜美放松。她右手抬起轻抚额头，手指修长，指甲涂有橙红色指甲油，左手自然下垂，手腕佩戴银色链条手链，姿态优雅且富有动态感。服装为白色无袖蕾丝连衣裙，领口呈荷叶边设计，裙身布满精细镂空花纹，材质轻盈透气，褶皱自然流畅。背景中可见粗壮树干纹理清晰，树皮粗糙呈深褐色，周围绿叶繁茂，阳光从上方斜射而下，形成明显的丁达尔光束效果，光线穿过树叶间隙投射在人物身上，营造出梦幻般的氛围。构图方式：采用三分法构图，人物位于左侧三分之一处，视线方向留有适当空间。前景人物与手部动作形成视觉焦点，中景树干与植被引导视线向远景延伸，形成自然的视觉动线。相机参数设定为全画幅传感器，使用85mm定焦镜头，光圈f/2.8，快门速度1/200秒，ISO 100，白平衡自动，对焦模式为单点对焦，确保人物面部与服装细节清晰锐利。光线来自右上方，形成柔和的侧逆光效果，人物轮廓边缘有轻微辉光，阴影过渡自然，无明显硬边。整体色彩基调以绿色与白色为主，辅以暖黄色阳光，营造出宁静温馨的夏日午后氛围。"
+      },
+      {
+       "label": "随机种子 (节点 81)",
+       "default": 822394048426486
+      },
+      {
+       "label": "自定义宽 (节点 113)",
+       "default": 1080
+      },
+      {
+       "label": "自定义高 (节点 113)",
+       "default": 1920
+      }
+     ]
+    },
+    {
+     "id": "API-C19-人物设定三视图zimage双采",
+     "ability": "人物三视图(zimage双采)",
+     "biz": "角色包立绘",
+     "note": "🔥角色包线",
+     "runs": 0,
+     "params": [
+      {
+       "label": "prompt (节点 42)",
+       "default": "年轻东亚女性半机械改造人，端正自然站立，双臂自然垂于身体两侧，双手放松，标准写实人体比例，无缝纯白工业影棚背景，突出人物主体。佩戴一体式哑光钛金属智能 AR 眼镜，淡蓝色增透镀膜镜片，镜腿嵌入细条冷蓝光效指示灯；右侧太阳穴延伸至脸颊处外露银色精密机械义体结构，表面带有蚀刻电路纹理与微弱冰蓝色发光指示灯。冷调白皙肤质，利落的银灰色哑光烟熏眼妆，低饱和灰粉哑光唇色；齐肩顺直直发，深黑底色夹杂银蓝色挑染，发丝富有细腻金属光泽；颈部佩戴细款银色金属项圈，带有微型数据接口，表情冷静冷峻，气质锐利。全身穿着未来感镭射机能风套装，高领修身镭射幻彩连体打底，面料随光线角度呈现银紫蓝三色渐变虹彩光泽，表面带有细密暗纹导电电路；外搭短款截短式哑光黑机能马甲，配有模块化快拆卡扣与反光条装饰；高腰修身工装长裤，裤腿带有多组立体口袋与脚踝束带设计，膝盖处内嵌半透明机械护板结构；脚穿厚底增高机能运动鞋，鞋身带有反光条与镭射装饰条。剪裁利落合身，面料带有自然垂坠褶皱，材质质感真实细腻，镭射面料的幻彩渐变效果自然通透。均匀柔和的影棚平光照明，光线全方位均匀覆盖，无强烈硬阴影，精准还原镭射面料的幻彩质感与机械部件的冷冽金属光泽。8K 超高清分辨率，极致清晰锐利，全景深全画面合焦，无虚化散景，写实赛博朋克风格，专业角色设定参考质感。"
+      },
+      {
+       "label": "宽度",
+       "default": 1920
+      },
+      {
+       "label": "高度",
+       "default": 1080
+      }
+     ]
+    },
+    {
+     "id": "API-B13-千问角色一键多角度_multiple_character_angles-v1.0",
+     "ability": "角色一键多角度",
+     "biz": "角色包立绘",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 25)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-T4-Krea2-int8-角色设定三视图",
+     "ability": "Krea2角色三视图",
+     "biz": "角色包立绘",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "宽度",
+       "default": 1920
+      },
+      {
+       "label": "高度",
+       "default": 1080
+      },
+      {
+       "label": "prompt (节点 121)",
+       "default": "Create an edgy cinematic cyberpunk beauty portrait of a young woman in a metallic silver slip dress, shot in a neon-lit underground passage at night on 35mm Kodak Vision3 500T film, with fine grain, high-contrast dual neon lighting, and cold avant-garde futuristic atmosphere.\nShe has sleek straight hair with silver-gray front highlights, wearing sharp graphic winged eyeliner, glossy clear lip gloss, and a silver metallic choker around her neck. A small glowing blue circuit-pattern sticker rests on her cheekbone. She leans one shoulder against a wet concrete wall, one hand tucked into the waistband of her skirt, gaze locked on the camera with a cold, sharp, confident expression. Dual neon light sources hit her from both sides: cool cyan from the left, deep magenta from the right, carving bright colored rim light along her facial structure and the edges of her metallic dress, leaving the center of her face in soft cool shadow. Water droplets on the concrete wall reflect the neon light into tiny glowing spots.\nThe composition uses a wide cinematic 2.39:1 aspect ratio with solid black letterbox bars, framed as a medium bust shot from a slightly low angle. Shot with a 35mm prime lens at f/1.4, creating shallow depth of field that keeps her face sharp while the background passage and neon signs dissolve into soft round colored bokeh orbs. A subtle dark vignette darkens the frame edges, and fine film grain is prominent in shadow areas.\nLighting is dual-color hard neon side light with no front fill, creating high contrast and dramatic color separation across her face and body. The metallic dress fabric catches the neon to create iridescent color shifts. The overall color palette is cold and futuristic: silver gray, electric cyan, deep magenta, inky black, and pale cool skin tones, with rich saturated neon accents.\nThe visual style is edgy cyberpunk editorial beauty photography, with authentic 35mm night film grain, realistic neon light casting, and zero digital sharpening. "
+      },
+      {
+       "label": "改写三视图提示词优化 (value)",
+       "default": true
+      }
+     ]
+    },
+    {
+     "id": "API-T10-Krea2做剧图像4视图",
+     "ability": "Krea2剧集四视图",
+     "biz": "角色一致性参考",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "宽度",
+       "default": 1536
+      },
+      {
+       "label": "高度",
+       "default": 1024
+      },
+      {
+       "label": "随机种子 (节点 142)",
+       "default": 311378956942475
+      },
+      {
+       "label": "上传图片 (节点 146)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-A08-洗图-Qwen二次元转真人高清放大",
+     "ability": "二次元转真人+高清放大",
+     "biz": "风格转换",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 78)",
+       "default": null
+      },
+      {
+       "label": "随机种子 (节点 347)",
+       "default": 3782365220
+      }
+     ]
+    },
+    {
+     "id": "API-B18-Qwenimage2.1",
+     "ability": "Qwen-Image 2.1 图像",
+     "biz": "通用图像",
+     "note": "",
+     "runs": 2,
+     "params": [
+      {
+       "label": "迭代步数",
+       "default": 20
+      },
+      {
+       "label": "提示词 (节点 37)",
+       "default": "超写实真人商业摄影风格，生成一张年轻亚洲女性高级时装人物 4 视图设定图，画幅 16:9，浅灰色无缝影棚背景，画面干净高级，无文字，无水印。\n\n画面左侧为同一位女性的大幅面部与上半身特写，占画面约 42%。人物正脸端正面对镜头，完整展示头部、面部五官、妆容、发型、耳饰、肩颈、锁骨与上胸部。\n\n画面右侧横向并列展示同一位女性的三张全身视图，依次为：正面全身、标准 90 度侧面全身、180 度背面全身。\n\n四个视图必须为同一位女性，脸型、五官、肤色、妆容、发型、发色、头饰、服装、首饰、手套和鞋子完全一致。\n\n18 岁年轻亚洲女性，身高 180cm，标准 9 头身高级时装模特比例，身形纤细修长，肩颈优雅，腰线纤细，四肢修长，腿部笔直自然，人体结构真实协调。\n\n精致偏窄的鹅蛋脸，柔和流畅的下颌线，略带清冷感的杏仁形眼睛，灰棕色瞳孔，纤长浓密睫毛，细长自然眉形。\n\n鼻梁纤细立体，鼻头小巧，嘴唇柔润饱满，低饱和裸豆沙色唇妆。\n\n皮肤自然冷白、细腻无暇，保留真实皮肤纹理与轻微毛孔，无油腻感，无塑料感，无过度磨皮。\n\n表情清冷、优雅、略带疏离感，嘴唇自然闭合，眼神正视镜头。\n\n浓密黑色长卷发，长度至腰部，柔软丰盈的大波浪。\n\n顶部为蓬松高颅顶半盘发，前额保留自然碎发和两侧弧形龙须刘海，少量发丝轻柔贴近脸颊。\n\n后脑一侧佩戴大型黑白缎面复古蝴蝶结发饰，蝴蝶结中央镶嵌银色水晶、珍珠与宝石装饰，带少量银色叶片造型。\n\n侧面和背面视图必须准确展示半盘发结构、长卷发层次和大型蝴蝶结的位置。\n\n冷调高级哥特少女妆容，灰棕色眼影、细长黑色眼线、根根分明的浓密睫毛，轻微下眼影和柔和卧蚕。\n\n面部轮廓精致但自然，低饱和冷粉腮红，颧骨、鼻梁和锁骨处有细腻自然高光。\n\n唇妆为低饱和灰粉豆沙色，轻微水润质感，不使用夸张艳丽色彩。\n\n黑白复古哥特风、暗黑 Coquette、维多利亚少女风与高级定制服装结合。\n\n整体配色以哑光黑、象牙白、珍珠白和少量银色水晶为主，华丽但不杂乱，强调非对称层次、束腰结构、蕾丝、蝴蝶结、玫瑰和珍珠流苏。\n\n上半身为黑色无肩带束腰胸衣，胸衣采用哑光黑色缎面与细腻黑色蕾丝拼接，结构清晰，具有纵向束骨收腰线条。\n\n胸口边缘使用象牙白蕾丝荷叶边包边。\n\n胸前中央装饰一个大型象牙白缎面蝴蝶结，蝴蝶结中央固定一朵立体黑色玫瑰，周围点缀珍珠、水晶和银色胸针。\n\n从胸前装饰垂下数条细长珍珠链与水晶流苏，形成精致垂坠效果。\n\n胸衣下方自然收紧腰部，强调纤细腰线，但保持人体比例自然。\n\n【袖子与手套】\n双臂佩戴黑色半透明蕾丝长手套，长度从手腕延伸至上臂。\n\n手套带精致花卉蕾丝纹理和细小水晶装饰。\n\n上臂位置增加象牙白蕾丝荷叶边和小型黑白蝴蝶结，使袖口具有复古宫廷层次。\n\n正面、侧面、背面视图中手套结构必须一致。\n\n下装为黑白非对称高低裙。\n\n腰部采用黑色束腰结构，正面和侧面装饰黑色立体玫瑰、象牙白缎面褶皱和珍珠链。\n\n前裙较短，露出修长腿部，裙摆由黑色蕾丝短裙、象牙白褶皱缎面和多层荷叶边组成。\n\n两侧和后方延伸出较长的不规则拖尾，采用象牙白缎面与黑色缎面交错拼接，呈现层叠瀑布状结构。\n\n裙摆边缘带细腻白色蕾丝、黑色滚边和小型珍珠装饰。\n\n后腰位置带黑色与象牙白结合的大型蝴蝶结或立体玫瑰装饰，背部拖尾比正面更长。\n\n背面视图必须完整展示黑色束腰交叉绑带、后腰花饰、分层裙摆和拖尾结构。\n\n佩戴象牙白蕾丝颈圈，颈圈上镶嵌多层珍珠、水晶和银色宝石胸针。\n\n颈圈中央垂下一颗水滴形珍珠吊坠。\n\n双耳佩戴大型复古银色水晶耳环，椭圆宝石外圈围绕水晶与珍珠，底部带细长水滴形吊坠。\n\n所有视图中的项链、颈圈和耳饰必须保持完全一致。\n\n黑色漆皮厚底细高跟鞋，前掌带厚底结构，鞋面系带和水晶装饰。\n\n鞋跟修长、结构真实，正面、侧面和背面鞋型完全统一。\n\n脚踝处佩戴黑色细带或小型银色扣饰。\n\n正面全身视图：人物正对镜头，双腿自然并拢，双手自然垂落身体两侧，肩膀水平，站姿端正。\n\n标准侧面视图：人物身体与头部均为严格 90 度侧面，不回头，不出现三分之二角度，双手自然下垂。\n\n背面视图：人物严格 180 度背对镜头，头部同样朝向后方，不回头，不露正脸，完整展示发型背面、束腰绑带、后腰装饰、裙摆拖尾与鞋跟。\n\n电影级商业影棚布光，柔和主光，轻微侧逆光，暖白轮廓光，面部柔光均匀。\n\n人物右侧三视图禁止强光、禁止过曝、禁止刺眼高光，保持低反差、均匀柔和照明，清晰展示黑白服装结构和蕾丝细节。\n\n发丝边缘有细腻发丝光，肩颈和锁骨轮廓自然，皮肤高光克制真实。\n\n浅灰色背景带轻微灰色渐变，脚下保留柔和自然阴影。\n\n85mm 人像镜头质感，f/2.0，左侧特写浅景深，右侧三个全身视图保持整体清晰。\n\n8K 高清，超写实真人摄影质感，高级时装杂志大片，真实缎面、蕾丝、珍珠、水晶、金属和皮肤材质，干净细腻，构图统一。"
+      },
+      {
+       "label": "negative_prompt (节点 37)",
+       "default": ""
+      },
+      {
+       "label": "aspect_ratio (节点 42)",
+       "default": "16:9 (Widescreen)"
+      },
+      {
+       "label": "megapixels (节点 42)",
+       "default": 4
+      }
+     ]
+    },
+    {
+     "id": "API-D14-分镜-Flux克莱因9B多角度多场景",
+     "ability": "Flux分镜多角度多场景",
+     "biz": "短剧分镜图",
+     "note": "🔥",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 259)",
+       "default": {}
+      }
+     ]
+    },
+    {
+     "id": "API-D18-klein9b真人剧制造机-多图编辑",
+     "ability": "真人剧多图编辑",
+     "biz": "剧照加工",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "positive (节点 1072)",
+       "default": "【参考图描述】\n参考图1是个女人,参考图2是个女人, 参考图3是个女人, 参考图4是个女人, 参考图5是个女人, 参考图6是个女人,\n\n【故事情节】\n6个女人站广袤无垠的大草原场景里，挥手向观众打招呼"
+      },
+      {
+       "label": "上传图片 (节点 1103)",
+       "default": null
+      },
+      {
+       "label": "enabled (节点 1103)",
+       "default": true
+      },
+      {
+       "label": "上传图片 (节点 1104)",
+       "default": null
+      },
+      {
+       "label": "enabled (节点 1104)",
+       "default": true
+      },
+      {
+       "label": "上传图片 (节点 1105)",
+       "default": null
+      },
+      {
+       "label": "enabled (节点 1105)",
+       "default": true
+      },
+      {
+       "label": "上传图片 (节点 1106)",
+       "default": null
+      },
+      {
+       "label": "enabled (节点 1106)",
+       "default": true
+      },
+      {
+       "label": "上传图片 (节点 1112)",
+       "default": null
+      }
+     ]
+    },
+    {
+     "id": "API-D20-RAW画质重建Adonis_Workflow",
+     "ability": "画质重建(只传图)",
+     "biz": "老图修复|封面翻新",
+     "note": "🛠",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 118)",
+       "default": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wan",
+   "label": "🎞 Wan / LTX 视频（备胎引擎）",
+   "items": [
+    {
+     "id": "API-G01-图生视频-Wan2.2万相基础版",
+     "ability": "Wan2.2图生视频基础",
+     "biz": "无声视频备胎",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "提示词 (节点 119)",
+       "default": "一位美丽的女士，对着镜头挥手微笑"
+      },
+      {
+       "label": "随机种子 (节点 142)",
+       "default": 147581827454151
+      },
+      {
+       "label": "value (节点 144)",
+       "default": 1024
+      },
+      {
+       "label": "上传图片 (节点 145)",
+       "default": null
+      },
+      {
+       "label": "Number (节点 153)",
+       "default": "5"
+      }
+     ]
+    },
+    {
+     "id": "API-G03-图生视频-Wan2.2SmoothMix",
+     "ability": "Wan2.2 SmoothMix",
+     "biz": "无声视频备胎",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 52)",
+       "default": null
+      },
+      {
+       "label": "随机种子 (节点 82)",
+       "default": 594731366764946
+      },
+      {
+       "label": "value (节点 88)",
+       "default": "第 1 秒：特写聚焦于红发少女的左肩，一枚蓝色的盾形图腾纹身清晰呈现，纹身边缘锐利、色彩饱满，肩头皮肤细腻光滑，白衬衫的领口微微敞开。\n第 2 秒：镜头缓慢上移，掠过精致的金色垂坠耳环，少女的侧脸轮廓柔和，棕褐色的眼眸深邃静谧，几缕红发轻柔地拂过脸颊。\n第 3 秒：中景展示少女回眸的瞬间，眼神清澈，长长的睫毛微微颤动，红色的长发如瀑布般顺滑垂落，发丝光泽感极强。\n第 4 秒：镜头逐渐拉远，展现出少女的整体身形，她微微侧身站立，姿态优雅，背景虚化呈现出柔和的光斑，营造出梦幻的氛围。\n第 5 秒：画面定格在少女的半身特写，光影柔和地打在她的脸上，红发与蓝纹形成鲜明对比，整体画面唯美而宁静。"
+      },
+      {
+       "label": "秒数",
+       "default": 5
+      },
+      {
+       "label": "边长 (value)",
+       "default": 1024
+      }
+     ]
+    },
+    {
+     "id": "API-G10-图生视频-Wan2.2SmoothMixV2",
+     "ability": "Wan2.2 SmoothMixV2",
+     "biz": "无声视频备胎",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 224)",
+       "default": null
+      },
+      {
+       "label": "随机种子 (节点 231)",
+       "default": -1
+      },
+      {
+       "label": "value (节点 238)",
+       "default": 5
+      },
+      {
+       "label": "value (节点 248)",
+       "default": 1024
+      },
+      {
+       "label": "value (节点 257)",
+       "default": "第 1 秒：特写聚焦于红发少女的左肩，一枚蓝色的盾形图腾纹身清晰呈现，纹身边缘锐利、色彩饱满，肩头皮肤细腻光滑，白衬衫的领口微微敞开。\n第 2 秒：镜头缓慢上移，掠过精致的金色垂坠耳环，少女的侧脸轮廓柔和，棕褐色的眼眸深邃静谧，几缕红发轻柔地拂过脸颊。\n第 3 秒：中景展示少女回眸的瞬间，眼神清澈，长长的睫毛微微颤动，红色的长发如瀑布般顺滑垂落，发丝光泽感极强。\n第 4 秒：镜头逐渐拉远，展现出少女的整体身形，她微微侧身站立，姿态优雅，背景虚化呈现出柔和的光斑，营造出梦幻的氛围。\n第 5 秒：画面定格在少女的半身特写，光影柔和地打在她的脸上，红发与蓝纹形成鲜明对比，整体画面唯美而宁静。"
+      }
+     ]
+    },
+    {
+     "id": "API-G07-图生视频-Wan2.2-LightX2V-WorkFisher",
+     "ability": "Wan2.2 LightX2V加速",
+     "biz": "无声视频快速",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "提示词 (节点 29)",
+       "default": "第 1 秒：特写蓝色星光耳饰的晶体结构折射霓虹，光芒如细碎星尘闪烁，耳饰随动作轻颤，背景传来都市全息广告的电子嗡鸣。\n第 2 秒：镜头上移银发被夜风扬起，几缕发丝扫过黑色连帽衣的亮面材质，衣料反光与蓝红霓虹交叠，耳饰光效明暗律动。\n第 3 秒：中近景角色头部微转，黑色帽檐在霓虹光中勾勒轮廓，身后赛博都市的全息灯牌光影流动，银发如银绸在风里翻涌。\n第 4 秒：全景角色立于霓虹街头，黑色衣袍边缘泛着冷光，远处高楼的蓝红霓虹如星河倒悬，飞行器光迹划破夜空。\n第 5 秒：特写推近蓝色耳饰星芒骤然明亮，银发与霓虹光影交织，画面在赛博都市的迷离光效中定格。"
+      },
+      {
+       "label": "Number (节点 30)",
+       "default": "1024"
+      },
+      {
+       "label": "上传图片 (节点 34)",
+       "default": null
+      },
+      {
+       "label": "value (节点 397)",
+       "default": 5
+      }
+     ]
+    },
+    {
+     "id": "API-G02-首尾帧-Wan2.2首尾帧视频",
+     "ability": "首尾帧过渡视频",
+     "biz": "转场镜头",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "提示词",
+       "default": "动画分镜描述：360° 转圈跳舞 + 花瓣飘动\n核心风格：唯美治愈、动态流畅，突出肢体韵律与花瓣的氛围感，适配 2D 手绘或 3D 柔光渲染风格\n【开场：静态铺垫】（0-1 秒）\n场景：浅粉色渐变背景（无多余杂物），地面铺一层薄如蝉翼的白色纱幔，边缘点缀淡粉、鹅黄的花瓣（静止状态，零散分布）。\n人物：女孩立于画面中央，身着淡紫色露肩舞裙（裙摆层叠，带微透纱质裙摆），长发松松挽成半扎发，发尾垂落肩头，手持一朵淡粉色蔷薇花。\n姿态：侧身站立，左脚在前点地，右手自然下垂轻触纱幔，左手持花举至胸前，头部微侧，眼神柔和望向画面右侧，身体呈轻微拉伸的预备姿势。\n细节：裙摆边缘有细碎的珠光质感，发丝带轻微光泽，花瓣表面有细腻纹理。\n【第一阶段：启动旋转（1-3 秒）】\n动作：女孩左脚发力蹬地，身体以右脚为轴心开始顺时针旋转，初始速度舒缓。\n1.5 秒：身体转至 90°，左手持花向侧上方扬起，右手自然甩开，裙摆随旋转微微张开，呈伞状雏形。\n2.5 秒：转至 180°，头部转正，眼神看向镜头，嘴角带浅笑，双臂向两侧平展，纱质裙摆完全展开（层叠裙摆呈现自然弧度），长发因离心力向后飘起。\n花瓣互动：随着身体带动的气流，地面静止的花瓣开始轻微浮动，10-15 片花瓣先从女孩脚边升起，随旋转方向缓慢飘散（速度低于身体旋转速度），颜色以粉、黄、白为主，分散分布。\n动态细节：裙摆飘动有层次感（内层贴身，外层舒展），发丝呈柔和的弧线飘动，蔷薇花花瓣微微颤动。\n【第二阶段：360° 完整旋转（3-5 秒）】\n动作：旋转速度略微加快，身体保持挺拔，双臂从平展逐渐向上收拢至胸前，再向斜上方伸展（类似芭蕾 “阿拉贝斯克” 变体动作）。\n4 秒：转至 270°，身体微微后仰，右腿向后抬起呈小弧度（脚尖绷直），裙摆因旋转和抬腿动作形成更大的扇形，纱质裙摆边缘出现虚影（体现速度感）。\n5 秒：完成 360° 旋转，左脚落地站稳，右脚向前点地，双臂自然下垂后轻扬，头部回正，眼神带笑意，身体呈轻微晃动的回弹感（模拟旋转后的轻盈平衡）。\n花瓣互动：花瓣数量增加至 30-40 片，形成围绕女孩旋转的 “花瓣漩涡”—— 部分花瓣随旋转方向飘动，部分从上方飘落，掠过女孩的发丝、裙摆，少数花瓣触碰到女孩手臂后弹开。\n花瓣动态：飘落速度有快慢区分（近景花瓣稍快，远景花瓣缓慢），部分花瓣带有轻微旋转，颜色分布更均匀（粉、黄、白穿插，无密集堆积）。\n细节：舞裙珠光在旋转中反射微光，发丝与花瓣缠绕后自然分开，蔷薇花花瓣掉落 2-3 片，随漩涡飘动。"
+      },
+      {
+       "label": "边长 (value)",
+       "default": 1024
+      },
+      {
+       "label": "首帧图",
+       "default": {}
+      },
+      {
+       "label": "秒数 (Number)",
+       "default": "5"
+      },
+      {
+       "label": "尾帧图",
+       "default": null
+      },
+      {
+       "label": "随机种子 (随机种子 (节点 182))",
+       "default": 0
+      }
+     ]
+    },
+    {
+     "id": "API-H17-文图生视频-LTX2.3全面优化版",
+     "ability": "LTX2.3文图生视频",
+     "biz": "备胎引擎",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 2004)",
+       "default": null
+      },
+      {
+       "label": "负面",
+       "default": "pc game, console game, video game, cartoon, childish, ugly,subtitles, caption, captions, closed captions, CC, on-screen text, text overlay, words, letters, characters, readable text, typography, subtitles bar, karaoke lyrics, lyric video, lower third, title card, UI, HUD, watermark, logo, signature, timestamp, sticker, banner, scrolling text, low quality, lowres, blurry, flicker, jitter, shaky camera, ghosting, frame doubling, temporal inconsistency, face warp, face melt, asymmetrical eyes, bad teeth, extra teeth, tongue artifact, mouth deformation, lip-sync mismatch, over-smoothing, plastic skin, heavy beauty filter, harsh sharpening, banding, noise, extra fingers, extra hands，字幕"
+      },
+      {
+       "label": "提示词 (节点 5013)",
+       "default": "\nStarting from a medium close-up of a graceful young woman in flowing white Hanfu with dark, gold-embroidered lapels, gazing wistfully at two tiny yellow wildflowers she holds against a soft, misty pale-green backdrop. The scene comes to life as a single continuous tracking shot slowly pushes in, capturing the gentle sway of her silver crystal hairpins and loose strands of dark hair stirred by a sudden spring breeze. As she softly rolls the thin green stem between her delicate fingertips, the yellow petals tremble, catching the diffused, ethereal light. Her long eyelashes flutter slightly, and her lower lip parts with a faint, visible breath. Woman (soft, melancholic sigh): \"春风虽暖，却留不住这花期。\" Following her words, her fingers slowly uncurl, surrendering to the wind. The breeze catches the delicate blossoms, sweeping them gracefully from her grasp. The unbroken camera shifts its focus smoothly from her lingering, downcast eyes to the drifting flowers, tracking them as they swirl through the mist past the rough stone pillar on the right edge of the frame. Eastern fantasy wuxia aesthetic, 35mm anamorphic lens, hyper-realistic silk textures, soft cinematic depth of field, ethereal volumetric lighting."
+      },
+      {
+       "label": "value (节点 5018)",
+       "default": 720
+      },
+      {
+       "label": "value (节点 5020)",
+       "default": 400
+      }
+     ]
+    },
+    {
+     "id": "API-H28-LTX2.3-高动态图生视频",
+     "ability": "LTX2.3高动态",
+     "biz": "动作大的镜头",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 269)",
+       "default": null
+      },
+      {
+       "label": "负面提示词",
+       "default": "pc game, console game, video game, cartoon, childish, ugly"
+      },
+      {
+       "label": "高度 (Number)",
+       "default": 360
+      },
+      {
+       "label": "宽度 (Number)",
+       "default": 640
+      },
+      {
+       "label": "秒 (Number)",
+       "default": "5"
+      },
+      {
+       "label": "帧率 (Number)",
+       "default": "30"
+      },
+      {
+       "label": "正面提示词 (prompt)",
+       "default": "Cinematic 8-second vertical video, ultra-realistic, 4K.\nShot 1 (0-3 seconds):\nClose-up portrait of a beautiful young Chinese woman in elegant white and black Hanfu. She stands gracefully in a misty ancient landscape with soft fog and god rays. The camera slowly orbits around her from left to right while gently zooming in. Her long black hair and sheer Hanfu fabric flow softly in the breeze. She starts with a serene, slightly shy expression, looking gently at the camera. She slowly tilts her head slightly to the side, her long eyelashes blink once, and the corners of her mouth curve into a faint, warm, elegant smile. Delicate white hair ornaments and teardrop earrings sway lightly.\nShot 2 (3-6 seconds):\nSmooth transition with a slow dissolve. The camera pulls back to a medium shot as she gracefully turns her body 45 degrees to the right, away from the camera. Her long hair and wide sleeves flow dramatically with the turn. She lowers her gaze for a moment, then slowly raises her head and looks back over her shoulder toward the camera with soft, captivating eyes. Gentle mist swirls around her, and soft light particles drift in the air.\nShot 3 (6-8 seconds):\nThe camera slowly zooms in again on her face as she fully turns back toward the camera. She gives a final gentle, almost shy smile, her eyes sparkling softly. Her hair continues to flow elegantly in the wind. The scene fades out with increasing mist and glowing light.\nOverall mood: graceful, poetic, ethereal, and breathtakingly beautiful. Soft breeze, flowing fabric and hair, smooth natural movements, cinematic lighting with rim light and god rays, high detail, masterpiece quality."
+      }
+     ]
+    },
+    {
+     "id": "API-H31-ltx2.3声音-图像生成视频",
+     "ability": "LTX2.3带声音图生视频",
+     "biz": "备胎(带声)",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 269)",
+       "default": null
+      },
+      {
+       "label": "上传音频 (节点 276)",
+       "default": null
+      },
+      {
+       "label": "value (节点 368)",
+       "default": 1280
+      },
+      {
+       "label": "value (节点 371)",
+       "default": false
+      },
+      {
+       "label": "value (节点 377)",
+       "default": 720
+      },
+      {
+       "label": "prompt (节点 393)",
+       "default": "我是提示词正面"
+      }
+     ]
+    },
+    {
+     "id": "API-H41-AI代码侠土豆-LTX2.3-MSR多参考图生成",
+     "ability": "LTX2.3多参考图",
+     "biz": "备胎",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "custom_width (节点 90)",
+       "default": 1280
+      },
+      {
+       "label": "custom_height (节点 90)",
+       "default": 720
+      },
+      {
+       "label": "上传图片 (节点 102)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 103)",
+       "default": null
+      },
+      {
+       "label": "时长秒 (value)",
+       "default": 10
+      },
+      {
+       "label": "上传图片 (节点 159)",
+       "default": null
+      },
+      {
+       "label": "prompt (节点 181)",
+       "default": "Disney Pixar-style 3D animated cinematic video, medium shot and medium close-up only, no wide shot. Only two characters appear in this scene: a tough half-machine female police officer in her late 20s with short messy silver-white hair, glowing cyan cybernetic left eye and left arm with exposed mechanical joints, wearing cracked dark police riot armor with faded law enforcement patches, metal shoulder pads, and worn leather straps; and a skinny cowboy bandit in his early 30s with messy dark hair under a battered wide-brimmed cowboy hat, gaunt face with stubble, wearing a dusty brown trench coat with bullet holes, faded red bandana, patched pants, and old cowboy boots, carrying a small worn tool pouch on his belt. Their faces, body shapes, cybernetic details, clothing, and mechanical elements remain consistent with the character reference sheets.\nThe scene uses the Scene 1 background: the entrance of an abandoned ruined bunker at night in a post-apocalyptic wasteland, with flickering neon signs, rusted metal doors, and distant sandstorm haze. The camera holds a stable medium shot with a very slow subtle push-in. The half-machine female officer stands in front of the heavy bunker door, reaching out to forcefully push it with an impatient expression. The skinny cowboy bandit gently pulls her mechanical arm and points upward at the dim, broken star-shaped power core above the door. The female officer says in Chinese: 「怎么又不动了？」. The cowboy bandit replies in Chinese: 「核心……好像彻底熄灭了。」.\nA simple cut moves to a medium close-up. The female officer frowns and leans closer to examine the power core, her mechanical hand still hovering near the door panel. The cowboy bandit adjusts his hat with one hand, looking worried. The female officer says in Chinese: 「那我们就把它修好！现在！」. The cowboy bandit replies in Chinese: 「可规矩说……得三块核心碎片才行。」.\nStable faces, stable outfits, subtle mouth movement, small hand gestures, consistent dramatic wasteland lighting with cyan mechanical glows and warm lantern light, no extra characters."
+      },
+      {
+       "label": "这是用户写提示词的指导 (prompt)",
+       "default": "# LTX-2.3 Dev / MSR 角色场景提示词模板\n\n把下面整段内容复制或直接拖给其他 AI 使用。\n\n---\n\n# 角色\n\n你是专业动画短片导演、角色设定师、分镜师、LTX-2.3 Dev 视频提示词架构师。\n\n你的任务是根据用户提供的剧本，生成适合 ComfyUI / LTX-2.3 Dev / MSR 人物一致性 / 场景 background 工作流使用的完整提示词包。\n\n默认风格：Disney Pixar-style 3D animated cinematic fairy tale。\n\n---\n\n# 入口判断\n\n你必须先判断用户是否提供了剧本。\n\n## 情况 A：用户提供了剧本\n\n如果用户已经提供剧本、故事梗概、分场内容、角色关系或对白，你需要直接执行：\n\n1. 提炼故事核心。\n2. 补全故事逻辑，使它成为完整童话，而不是断裂分镜。\n3. 提炼并固定两个主要角色。\n4. 为两个角色分别生成三视图角色 Sheet 提示词。\n5. 把完整故事拆成多个 LTX-2.3 Dev 稳定分镜。\n6. 每个场景输出：\n   - 场景编号\n   - 场景时长\n   - 场景剧情\n   - 景别策略\n   - 简化镜头设计\n   - 场景图提示词\n   - 本场对白\n   - LTX-2.3 Dev 视频提示词\n   - negative prompt\n\n## 情况 B：用户没有提供剧本\n\n如果用户没有剧本，只说想做一个故事、测试工作流、生成提示词、做一个短片等，你不要直接生成完整内容。\n\n你必须先问用户：\n\n```text\n你是否需要我随机生成一个故事？想要多少个分镜？想要什么风格？默认是 4 个分镜，Disney Pixar-style 3D animated cinematic fairy tale。\n```\n\n如果用户回复“随机”“你决定”“默认”“直接来”，则自动使用默认值：\n\n- 场景数：4\n- 人物数：2\n- 风格：Disney Pixar-style 3D animated cinematic fairy tale\n- 每个场景时长：8-12 秒\n- 每个场景至少 4 句自然对白\n- 故事类型：童话冒险\n- 画面比例：16:9\n\n---\n\n# 核心规则\n\n1. 全片只允许两个主要角色。\n2. 两个角色必须贯穿所有场景。\n3. 角色参考图必须是三视图角色 Sheet。\n4. 场景图提示词默认不要人物，只生成无人场景。\n5. 场景图作为 MSR / LTX 工作流中的 background。\n6. LTX 视频提示词中再把两个角色放入对应场景。\n7. 每个场景必须有：\n   - 明确时长\n   - 一段剧情动作\n   - 一段完整对白\n   - 一条无人场景图提示词\n   - 一条 LTX-2.3 Dev 视频提示词\n   - 一条 negative prompt\n8. 默认每个场景 8-12 秒，动作复杂时最多 14 秒。\n9. 对白自然、短句、有角色声口，不要像 AI 总结。\n10. 不要加入第三个人物、群众、动物，除非用户明确要求。\n\n---\n\n# LTX-2.3 Dev 稳定规则\n\nLTX-2.3 Dev 更适合稳定构图和明确动作，不适合大场面、复杂空间调度、频繁切换地点和夸张运镜。\n\n必须遵守：\n\n1. 优先使用中景、中近景、近景、特写、手部特写、脚步特写。\n2. 尽量避免远景、大远景、航拍、俯拍、无人机、升降大摇臂、快速环绕、快速变焦。\n3. 每个场景只写一个主要动作链。\n4. 每个场景最多 1 次简单切镜；如果画面容易崩，改成全程固定镜头或轻微推近。\n5. 不要在同一个 LTX Prompt 里切换多个地点。\n6. 不要写复杂群像、复杂背景运动、宏大环境变化。\n7. 镜头语言要描述相机和主体的关系，例如：\n   - stable medium shot\n   - locked camera\n   - slow subtle push-in\n   - simple cut to close-up\n   - close-up of hands\n8. 每条 LTX Prompt 尽量是一个连贯段落，动作按时间顺序发生。\n9. 镜头描述要克制，不要堆叠多个运镜词。\n10. 如果需要切镜，切镜必须清楚区分景别，例如“手部特写 -> 双人中近景”，不要连续多个相似景别导致画面抖动。\n\n推荐景别：\n\n```text\nmedium shot, medium close-up, close-up, insert shot, hand close-up, foot close-up\n```\n\n禁止或尽量避免：\n\n```text\nwide shot, extreme wide shot, aerial shot, drone shot, crane shot, fast zoom, fast orbit, complex camera movement, multiple locations, crowd, large transformation\n```\n\n---\n\n# 完整故事规则\n\n输出分镜前，必须先生成或整理一篇完整童话故事。\n\n完整故事必须包含：\n\n1. 世界规则。\n2. 主角 A 的性格缺点。\n3. 主角 B 的性格缺点或恐惧。\n4. 一个明确危机。\n5. 一个魔法物件或任务目标。\n6. 至少两次阻碍。\n7. 角色关系转折。\n8. 最终合作完成任务。\n9. 结尾呼应开头。\n\n故事不能只是场景列表。它必须像一篇完整短童话，有起因、经过、转折、高潮和结尾。\n\n---\n\n# 输出结构\n\n你必须按以下结构输出。\n\n---\n\n## 1. 项目设定\n\n输出：\n\n- 片名\n- 类型\n- 风格\n- 画面比例\n- 角色数量\n- 场景数量\n- 总时长\n- LTX 稳定策略\n- 故事一句话概括\n- 情绪弧光\n- 时长表\n\n时长表格式：\n\n```text\nScene 1: 10s\nScene 2: 10s\nScene 3: 11s\nScene 4: 10s\nTotal: 41s\n```\n\n---\n\n## 2. 完整童话故事\n\n输出一篇完整童话故事。\n\n要求：\n\n- 不是分镜梗概。\n- 不是大纲。\n- 必须有完整起承转合。\n- 必须包含主要对白。\n- 两个角色必须都有情绪变化。\n- 结尾必须呼应开头。\n\n---\n\n## 3. 角色列表\n\n只生成两个主要角色。\n\n每个角色包含：\n\n- 角色名\n- 年龄\n- 性别\n- 性格功能\n- 外貌特征\n- 发型\n- 服装\n- 标志性细节\n- 一致性锁定点\n\n---\n\n## 4. 角色三视图提示词\n\n每个角色输出一段完整三视图提示词。\n\n### 角色 1 三视图提示词\n\n```text\nDisney Pixar-style 3D animated character reference sheet, one recurring character only. [角色详细描述：年龄、脸型、肤色、眼睛、鼻子、发型、体型、表情、服装、材质、标志性细节。]\n\nPure neutral studio background. Wide horizontal character sheet layout. Left one-third shows a large bust close-up from chest up, clearly showing face, hairstyle, eyes, and upper clothing texture. Right two-thirds shows full-body front view, side view, and back view of the same character, evenly spaced, feet aligned on the same invisible ground line, heads at the same height. Same age, same face, same hairstyle, same outfit in all views. High-quality Disney Pixar animated film style, soft cinematic lighting, expressive but not exaggerated, detailed fabric, natural skin shading.\n\nNo extra people, no animals, no readable text, no watermark, no labels, no panel borders, no duplicated character, no different outfits, no realistic live action, no anime 2D.\n```\n\n### 角色 2 三视图提示词\n\n同样格式，完整输出，不要写“同上”。\n\n---\n\n## 5. LTX-2.3 Dev 分镜稳定规则\n\n输出本片采用的稳定规则，例如：\n\n```text\nShot scale priority: medium shot, medium close-up, close-up, insert shot.\nAvoid: wide shot, extreme wide shot, aerial shot, drone shot, crane shot, fast orbit, fast zoom, complex camera move, multiple locations in one clip, crowd, animals, large environmental transformation.\nPreferred camera: locked camera, slow subtle push-in, small side slide, simple cut to close-up.\nPreferred action: one clear action chain per scene.\nPreferred dialogue: short lines, physical acting between lines.\n```\n\n---\n\n## 6. 场景分镜表\n\n按场景输出：\n\n### Scene 1：场景标题\n\n- 时长：\n- 场景地点：\n- 景别策略：\n- 剧情动作：\n- 角色出现：\n- 简化镜头设计：\n  - 0-5s：中景或特写，描述一个清楚动作。\n  - 5-10s：简单切到中近景或特写，描述一个清楚动作。\n- 对白：\n  - 角色 A：「……」\n  - 角色 B：「……」\n  - 角色 A：「……」\n  - 角色 B：「……」\n- 画面目的：\n\n每个场景都必须有对话。\n\n如果某个场景用户剧本里没有对白，你需要补自然对白。\n\n---\n\n## 7. 每个场景的无人背景图提示词\n\n每个场景输出一条独立场景图提示词。\n\n要求：\n\n- 无人物\n- 无动物\n- 无手\n- 无脸\n- 无剪影\n- 无文字\n- 无字幕\n- 无 logo\n- 无水印\n- 构图优先中景、中近景、近景\n- 给两个角色预留前景或中景站位\n- 背景不要过度复杂\n- 可以有建筑、道具、道路、灯光、天气、环境细节\n- 风格与全片一致\n\n格式：\n\n### Scene 1 背景图提示词\n\n```text\nDisney Pixar-style 3D animated fairy-tale environment, no characters and no people. A medium-close view of [场景地点], [具体环境细节], simple stable composition for two characters in the foreground or middle ground, soft cinematic lighting, shallow depth of field, uncluttered background, 16:9 aspect ratio.\n\nNo people, no characters, no silhouettes, no animals, no faces, no hands, no text, no subtitles, no signs, no labels, no watermark, no logo, no readable symbols, no scary mood, no realistic live action, no anime 2D.\n```\n\n每个场景都完整输出，不要写“同上”。\n\n---\n\n## 8. 每个场景的 LTX-2.3 Dev 视频提示词\n\n每个场景输出一条独立 LTX 提示词。\n\n要求：\n\n- 英文描述。\n- 中文对白保留中文。\n- 中文对白使用中文全角引号「……」。\n- 明确只有两个角色出现。\n- 明确角色身份、服装、发型与角色 Sheet 一致。\n- 明确当前场景来自对应 scene background。\n- 明确稳定身份、稳定服装、稳定场景。\n- 每个场景只写当前场景，不要串到下一场景。\n- 不要远景、大远景、航拍、复杂运镜。\n- 使用中景、中近景、近景、特写。\n- 每个场景最多 1 次 simple cut。\n- 如果需要更稳，可以完全不切镜，只用 locked camera 或 slow subtle push-in。\n\n格式：\n\n### Scene 1 LTX Prompt\n\n```text\nDisney Pixar-style 3D animated cinematic video, medium shot and medium close-up only, no wide shot. Only two characters appear in this scene: [角色1简短外观锁定] and [角色2简短外观锁定]. Their faces, ages, hairstyles, body shapes, and clothing remain consistent with the character reference sheets.\n\nThe scene uses the Scene 1 background: [场景地点]. The camera holds a stable medium shot with a very slow subtle push-in. [按时间顺序描述当前场景唯一动作链。] [角色1] says in Chinese: 「……」. [角色2] replies in Chinese: 「……」. A simple cut moves to a medium close-up. [继续当前场景动作，不换地点。] [角色1] says in Chinese: 「……」. [角色2] replies in Chinese: 「……」. Stable faces, stable outfits, subtle mouth movement, small hand gestures, consistent lighting, no extra characters.\n```\n\n### Scene 1 Negative Prompt\n\n```text\nwide shot, extreme wide shot, aerial shot, drone shot, crane shot, fast zoom, fast orbit, complex camera movement, multiple locations, crowd, extra people, third person, duplicate character, duplicate girl, duplicate boy, additional characters, animals, face drift, identity change, hairstyle change, outfit change, age change, wrong clothing, merged bodies, distorted hands, extra fingers, extra limbs, deformed face, blurry face, low quality, flicker, morphing, dissolve, cross-fade, unstable background, random scene change, subtitles, on-screen text, watermark, logo, readable signs, horror, dark scary mood, realistic live action, 2D anime, plastic skin, oversaturated colors, character reference sheet in video, model sheet in video, split panels in video\n```\n\n每个场景都必须完整输出 LTX Prompt 和 Negative Prompt，不要写“同上”。\n\n---\n\n# 对白规则\n\n对白必须符合：\n\n1. 每句尽量短。\n2. 不解释剧情。\n3. 不说教。\n4. 不要“我们一定可以成功”这种口号。\n5. 有人物声口差异。\n6. 可以有停顿、省略、半句话。\n7. 每个场景至少一轮完整对话，建议 4-6 句。\n8. 同一句对白在分镜表和 LTX Prompt 中必须一致。\n9. 对白必须推动逻辑：发现问题、提出疑问、理解规则、做出选择、情绪收束。\n10. 中文对白保留中文，并使用中文全角引号「……」。\n\n---\n\n# 时长规则\n\n默认：\n\n- 每个场景 8-12 秒。\n- 情绪坦白场景 10-12 秒。\n- 动作多的场景 10-14 秒。\n- 情绪收束场景 10-12 秒。\n- 总时长 = 所有场景时长相加。\n\n输出时必须列出时长表。\n\n---\n\n# 生成顺序建议\n\n输出固定生成顺序：\n\n1. 先生成角色 1 三视图角色 Sheet。\n2. 再生成角色 2 三视图角色 Sheet。\n3. 生成每个场景的无人背景图，全部保持中景或中近景构图。\n4. 用角色 Sheet + 对应无人背景图生成每个 LTX 视频片段。\n5. 如果画面崩溃，优先删除 simple cut，改成 locked camera + slow subtle push-in。\n6. 字幕、标题、片名、铃声、环境音、音乐都放到后期，不要让视频模型直接生成文字。\n\n---\n\n# 最终要求\n\n如果用户提供剧本：\n\n直接输出完整提示词包。\n\n如果用户没有剧本：\n\n先问：\n\n```text\n你是否需要我随机生成一个故事？想要多少个分镜？想要什么风格？默认是 4 个分镜，Disney Pixar-style 3D animated cinematic fairy tale。\n```\n\n如果用户说默认或随机：\n\n直接生成完整提示词包。\n\n所有内容必须完整输出，不要省略，不要写同上。\n\n---\n\n# 使用示例\n\n## 无剧本\n\n```text\n我没有剧本，随机生成。5 个分镜，默认迪士尼皮克斯风格。请按 LTX-2.3 Dev 稳定规则输出，尽量使用近景、中景、特写，不要复杂远景和复杂运镜。\n```\n\n## 有剧本\n\n```text\n我有剧本：一个小女孩和一个小男孩在月光花园里寻找会唱歌的铃兰花。请生成完整童话故事、两个角色三视图、每个场景的无人背景图提示词、每个场景的自然对白和 LTX-2.3 Dev 稳定视频提示词。每个视频尽量使用中景、中近景、特写，避免远景、大远景、复杂运镜。\n```\n"
+      }
+     ]
+    },
+    {
+     "id": "API-Y08-四宫格-LTX-2.3图生视频优化版",
+     "ability": "四宫格图生视频",
+     "biz": "分镜四连拍",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "提示词 (节点 71)",
+       "default": "\n  \"prompt\": \"4K 50fps 杜比视界 电影级画质。极致写实的古风电影质感，苏式园林大雪纷飞的冬日景象。冷白色的积雪与暖黄色的宫灯形成强烈色调对比，画面带有细腻的胶片颗粒感。全片严格采用硬切（Hard Cut）手法，镜头之间无任何叠化或融化转场。人物动作自然，发丝随风微动，呼吸在冷空气中凝结成白雾，口型与台词精准同步，营造出一种克制而深情的东方美学氛围。配乐为悠扬的古琴与轻柔的管弦乐，伴随风雪声与衣料摩擦的白噪音。\",\n  \"scene_list\": [\n    \n      \"scene_name\": \"苏式园林月洞门雪景\",\n      \"scene_type\": \"外景\",\n      \"time_period\": \"夜晚，大雪\",\n      \"env_attr\": \"苏式园林、月洞门、红梅、积雪、宫灯\",\n      \"space_attr\": \"深邃、静谧、充满诗意\",\n      \"light_attr\": \"暖黄宫灯侧光，冷白环境光，高反差影调\",\n      \"sound_attr\": \"风雪呼啸声、踩雪声、低沉温柔的人声\",\n      \"ambient_sound\": \"风吹雪落声，远处宫铃微响\",\n      \"shot_list\": [\n        \n          \"character\": \"顾临渊\",\n          \"character_costume\": \"黑金绣龙朝服，金冠束发，领口缀有黑色皮毛\",\n          \"action_type\": \"站立并深情表白\",\n          \"motion_speed\": \"正常\",\n          \"emotion\": \"温柔、思念\",\n          \"shot_scale\": \"中景\",\n          \"camera_angle\": \"平视\",\n          \"shot_move\": \"缓慢推镜\",\n          \"shot_depth\": \"正常景深\",\n          \"shot_pace\": \"慢\",\n          \"shot_duration\": \"4s\",\n          \"content\": \"画面起势于月洞门下。顾临渊身着华贵的黑金绣龙朝服，金冠在暖黄灯光下熠熠生辉。他静静伫立，雪粒不断飘落在他的肩头与发际。镜头缓慢向他推进，捕捉他眼中流露出的温柔。他的胸腔随着呼吸起伏，发丝在风中持续微颤，随后他缓缓开口，口型清晰且深情。\",\n          \"vfx\": \"高精度粒子流体雪花，呼吸白雾特效\",\n          \"dialogue\": \"（低沉温柔）清辞，朕在这雪里，等了你许久。\",\n          \"sound_effect\": \"衣料在寒风中轻微的摩擦声\",\n          \"foley_sound\": \"沉重的呼吸声\"\n        ,\n        \n          \"character\": \"沈清辞\",\n          \"character_costume\": \"红披风配纯白狐狸毛领\",\n          \"action_type\": \"手持红梅回眸微笑\",\n          \"motion_speed\": \"正常\",\n          \"emotion\": \"灵动、含笑\",\n          \"shot_scale\": \"近景\",\n          \"camera_angle\": \"平视\",\n          \"shot_move\": \"横向摇镜\",\n          \"shot_depth\": \"浅景深\",\n          \"shot_pace\": \"正常\",\n          \"shot_duration\": \"3.5s\",\n          \"content\": \"画面无缝直接硬切（Hard Cut）至第二幅构图，没有任何过渡特效。沈清辞侧身而立，白狐领衬托出她清丽的面容，手中捧着一簇缀满白雪的红梅。镜头随着她的视线轻轻摇动，她转过头，目光越过纷飞的落雪望向顾临渊，嘴角带着一抹似有若无的笑意，轻声回应，口型与声音完美契合。\",\n          \"vfx\": \"红梅上的积雪微颤掉落效果\",\n          \"dialogue\": \"（软声）陛下是在寻找何物？\",\n          \"sound_effect\": \"红梅枝条轻轻晃动的声音\",\n          \"foley_sound\": \"披风由于转身产生的细微响动\"\n        ,\n        \n          \"character\": \"顾临渊、沈清辞\",\n          \"character_costume\": \"同上\",\n          \"action_type\": \"雪中对视\",\n          \"motion_speed\": \"正常\",\n          \"emotion\": \"深情、缱绻\",\n          \"shot_scale\": \"固定中景\",\n          \"camera_angle\": \"平视\",\n          \"shot_move\": \"固定\",\n          \"shot_depth\": \"深景深\",\n          \"shot_pace\": \"慢\",\n          \"shot_duration\": \"4s\",\n          \"content\": \"镜头干净利落地硬切至第三幅画面，两人在雪地中相对而立。顾临渊侧身凝视着沈清辞，而沈清辞举着红梅回望。四周是古朴的园林建筑与漫天飞雪。两人的呼吸在冷空气中凝结成清晰的白雾相互交织。顾临渊眼神专注，再次开口，情感爆发力极强，画面保持极高真实度与背景的动态雪景。\",\n          \"vfx\": \"冷暖对比调色，持续的动态落雪\",\n          \"dialogue\": \"（深情）朕寻遍御苑千枝梅，只觉这满院风雪，都不及你半分好看。\",\n          \"sound_effect\": \"风掠过园林的回响\",\n          \"foley_sound\": \"两人在雪地站立的轻微摩擦感\"\n        ,\n        \n          \"character\": \"顾临渊、沈清辞（手部）\",\n          \"character_costume\": \"黑金护腕，红披风袖口\",\n          \"action_type\": \"手部覆盖与接触\",\n          \"motion_speed\": \"慢速\",\n          \"emotion\": \"暧昧、守护\",\n          \"shot_scale\": \"特写\",\n          \"camera_angle\": \"俯拍\",\n          \"shot_move\": \"微距推镜\",\n          \"shot_depth\": \"极浅景深\",\n          \"shot_pace\": \"慢\",\n          \"shot_duration\": \"3.5s\",\n          \"content\": \"最后一次清脆的硬切，画面精准定格在第四幅画面的局部特写。顾临渊戴着黑金护腕的手缓缓覆上沈清辞握着红梅指节的手。镜头极近距离推进，可以看见红梅枝条因触碰而轻微颤动，几片晶莹的雪片落在他们交叠的指尖。暖黄色的灯光映照在皮肤纹理上，营造出极致的缱绻与暖意。\",\n          \"vfx\": \"指尖雪花融化的微小细节，镜头微距虚化\",\n          \"dialogue\": \"无\",\n          \"sound_effect\": \"指尖触碰的轻微摩擦声，雪落声\",\n          \"foley_sound\": \"红梅枝干颤动的细微声响\"\n        \n      ]\n    \n  ],\n  \"parameters\": \n    \"resolution\": \"1920X1280\",\n    \"fps\": 50,\n    \"duration\": 15,\n    \"cfg_scale\": 8,\n    \"motion_bucket\": 120,\n    \"enhance_prompt\": true,\n    \"audio_generation\": true\n  \n"
+      },
+      {
+       "label": "上传图片 (节点 127)",
+       "default": null
+      },
+      {
+       "label": "视频长（12秒） (value)",
+       "default": 12
+      },
+      {
+       "label": "custom_width (节点 150)",
+       "default": 1024
+      },
+      {
+       "label": "custom_height (节点 150)",
+       "default": 600
+      },
+      {
+       "label": "prompt (节点 222)",
+       "default": "# Role\n你是一名好莱坞级别的电影分镜视频导演兼 LTX-2.3 / 通用视频模型 JSON 剧本架构师。你的核心任务是：接收用户提供的【四张四宫格参考图（帧1、帧2、帧3、帧4）的描述】以及【动作与台词要求】，将其转化为一个符合严格 JSON 格式的 **12秒多镜头电影剧本**。所有输出的提示词描述必须是**纯中文**。\n\n# Core Task & Cinematic Logic\n你必须将四张图片的故事序列转化为 JSON 数据结构中的 `shot_list`（镜头列表）。为了避免 AI 视频模型产生糟糕的画面融化、叠化或转场特效，你必须在每个镜头的 `content`（镜头内容描述）中严格遵守以下“四帧硬切”逻辑：\n\n1. **Shot 1 (对应图1起势):** \n描述开头精准锁定第一张图的构图与状态。必须强制加入“镜头内持续微动态”（如：发丝持续飘动、衣物随着动作起伏、胸腔随着呼吸起伏、背景光影流动），确保画面不僵化。\n2. **Shot 2 (对应图2硬切):** \n`content` 描述必须以强调**直接切换**起手（例如：“画面无缝直接硬切（Hard Cut）至第二幅构图，没有任何过渡、融化或叠化特效”）。保持持续的动作与微表情。如果该镜头有台词，必须强调角色开口说话，口型清晰且与台词完美同步。\n3. **Shot 3 (对应图3硬切):** \n`content` 描述同样必须强调硬切（例如：“镜头干净利落地硬切至第三幅画面，拒绝任何转场特效”）。继续推进人物动作与空间动态。\n4. **Shot 4 (对应图4收束):** \n`content` 描述强调最终落幅（例如：最后一次清脆的硬切，画面精准定格在第四幅画面的构图与神态）。如果有结尾台词，再次强调口型同步与情感爆发。\n\n# Output JSON Rules\n1. **纯 JSON 输出：** 只输出一个合法的 JSON 对象，不加任何 Markdown 标记（不要 ```json ），不要任何解释性文字。\n2. **语言要求：** JSON 内的所有值（除了参数字段名外）**必须全部使用中文**进行极其详尽、极具画面感的电影级描述。\n3. **时长逻辑：** 剧本总时长为 12 秒（`duration: 15`），请将这 12 秒合理分配给 `shot_list` 中的 4 个镜头（例如：2.5s, 2.5s, 3s, 4s），保证它们相加等于 12。\n4. **镜头数量：** `shot_list` 数组中**必须且只能包含 4 个对象**，依次对应图1到图4。\n\n# Input Format (用户将会提供以下内容)\n[Frame 1]: 图1描述\n[Frame 2]: 图2描述\n[Frame 3]: 图3描述\n[Frame 4]: 图4描述\n[Character & Costume]: 角色身份与服装打扮\n[Action & Plot]: 整体剧情动作\n[Dialogues]: 中文台词及分配的帧数\n[Audio & Mood]: 环境音、配乐与整体氛围\n\n# JSON Structure Template (必须严格遵循此结构输出)\n{\n  \"prompt\": 4K 50fps 杜比视界 电影质感...（根据用户输入生成包含整体画风、光影、氛围和配乐的中文总描述，需强调全片采用硬切手法，保持极高真实度与微动态）,\n  \"scene_list\":[\n    {\n      \"scene_name\": \"（场景名称）\",\n      \"scene_type\": \"（内景/外景）\",\n      \"time_period\": \"（时间与天气）\",\n      \"env_attr\": \"（环境关键词）\",\n      \"space_attr\": \"（空间感关键词）\",\n      \"light_attr\": \"（光影关键词）\",\n      \"sound_attr\": \"（声音氛围关键词）\",\n      \"ambient_sound\": \"（环境音效词组）\",\n      \"shot_list\":[\n        {\n          \"character\": \"（角色名）\",\n          \"character_costume\": \"（服装描述）\",\n          \"action_type\": \"（动作类型）\",\n          \"motion_speed\": \"（正常/慢/快）\",\n          \"emotion\": \"（情绪）\",\n          \"shot_scale\": \"（特写/近景/中景等）\",\n          \"camera_angle\": \"（平视/俯拍/仰拍等）\",\n          \"shot_move\": \"（固定/推/拉/摇/移）\",\n          \"shot_depth\": \"（浅景深/正常景深/深景深）\",\n          \"shot_pace\": \"（慢/正常/快）\",\n          \"shot_duration\": \"（如：3.5s）\",\n          \"content\": （极其详尽的画面描述！对于图1，强调起势与持续微动态；对于图2-4，开头必须写明画面无缝硬切至...，绝无过渡融化特效，并描述微动作、光影和口型同步情况）,\n          \"vfx\": （视觉特效，无则填“无”）,\n          \"dialogue\": （中文台词及说话语气，如：（冷笑）你今晚是我的了。 无则填“无”）,\n          \"sound_effect\": （特定动作音效）,\n          \"foley_sound\": （拟音，如脚步声、布料摩擦声）\n        }\n        // ...（此处必须补齐对应的第2、3、4个shot对象，严格对应图2、图3、图4）\n      ]\n    }\n  ],\n  \"parameters\": {\n    \"resolution\": \"1920X1280\",\n    \"fps\": 25,\n    \"duration\": 10,\n    \"cfg_scale\": 8,\n    \"motion_bucket\": 120,\n    \"enhance_prompt\": true,\n    \"audio_generation\": true\n  }\n}\n\n# Final Instruction\n接收到用户的输入后，直接输出包含4个镜头的完整 JSON 字符串。"
+      },
+      {
+       "label": "prompt (节点 223)",
+       "default": "镜头稳稳地贴在男孩的脸上，他没有丝毫对死亡的恐惧，只有孩子对陌生概念最纯粹的好奇，认真地抬起头，问老板 “什么叫去世啊”。镜头猛地切到老板的脸上，他瞬间就愣住了，嘴巴微微张开，却一个字都说不出来，之前的严肃、担忧全都散了，只剩下成年人面对孩子童真提问时的无措与迟疑。镜头再拉回男孩身上，他像是已经找到了自己能理解的答案，继续认真地说道：是不是去一个很远的地方，就叫去世。最终，镜头缓缓落在老板的身上，他整个人都软了下来，眼神里满是藏不住的心疼，放轻了语气，低声回应 “也可以这么理解”。\n\n假设这是你的提示词，用下面的系统提示词让AI为你改写一次得到4宫格提示词"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "motion",
+   "label": "💃 动作迁移与数字人",
+   "items": [
+    {
+     "id": "API-P02-动作迁移-Wan2.2Animate角色迁移",
+     "ability": "角色动作迁移",
+     "biz": "让角色做指定动作",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 33)",
+       "default": null
+      },
+      {
+       "label": "上传视频 (节点 51)",
+       "default": null
+      },
+      {
+       "label": "value (节点 89)",
+       "default": 768
+      },
+      {
+       "label": "value (节点 90)",
+       "default": 480
+      },
+      {
+       "label": "提示词 (节点 91)",
+       "default": "一个女生正在跳舞"
+      },
+      {
+       "label": "秒数 (value)",
+       "default": 30
+      }
+     ]
+    },
+    {
+     "id": "API-P07-动作迁移-Wan2.2AnimateV4",
+     "ability": "动作迁移V4",
+     "biz": "舞蹈/武打动作",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 57)",
+       "default": null
+      },
+      {
+       "label": "上传视频 (节点 997)",
+       "default": null
+      },
+      {
+       "label": "value (节点 1001)",
+       "default": 468
+      },
+      {
+       "label": "value (节点 1002)",
+       "default": 832
+      },
+      {
+       "label": "value (节点 1003)",
+       "default": 900
+      }
+     ]
+    },
+    {
+     "id": "API-P17-动作迁移4090-48G显卡专用V8",
+     "ability": "动作迁移V8(88节点)",
+     "biz": "高精度动作",
+     "note": "⚠标4090-48G,32G卡需降参",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传视频 (节点 275)",
+       "default": null
+      },
+      {
+       "label": "上传图片 (节点 299)",
+       "default": null
+      },
+      {
+       "label": "加载帧数上限 (value)",
+       "default": 840
+      },
+      {
+       "label": "宽度 (value)",
+       "default": 720
+      },
+      {
+       "label": "高度 (value)",
+       "default": 1280
+      },
+      {
+       "label": "开启运镜 (value)",
+       "default": false
+      }
+     ]
+    },
+    {
+     "id": "API-J13-小珠光90秒全自动版-单人InfiniteTalk",
+     "ability": "单人说话数字人(最长90秒)",
+     "biz": "口播视频|课程",
+     "note": "🔥",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图像",
+       "default": null
+      },
+      {
+       "label": "人物动作描述 (prompt)",
+       "default": "对着镜头唱歌，双手轻垂身侧，微微低头，神情落寞\n对着镜头唱歌，单手轻扶脸颊，眉眼低垂，面露忧伤\n对着镜头唱歌，双手交叠放在身前，身体微颤，眼神深情怅然\n对着镜头唱歌，抬手轻触眉眼，头部微侧，神情哀伤\n对着镜头唱歌，手臂自然轻晃，眉头微蹙，眼底满是柔情与惆怅\n对着镜头唱歌，单手按在胸口，微微仰头，情绪沉静伤感\n对着镜头唱歌，双手松弛下垂，肩膀微收，眼神黯淡温柔\n对着镜头唱歌，指尖轻抵下唇，目光放空，神态忧郁\n对着镜头唱歌，身体小幅轻晃，双手缓缓抬起又落下，面露怅惘\n对着镜头唱歌，单手搭在肩头，眉眼低垂，神情隐忍又深情\n对着镜头唱歌，双手轻垂身侧，微微低头，神情落寞\n对着镜头唱歌，单手轻扶脸颊，眉眼低垂，面露忧伤\n对着镜头唱歌，双手交叠放在身前，身体微颤，眼神深情怅然\n对着镜头唱歌，抬手轻触眉眼，头部微侧，神情哀伤\n对着镜头唱歌，手臂自然轻晃，眉头微蹙，眼底满是柔情与惆怅\n对着镜头唱歌，单手按在胸口，微微仰头，情绪沉静伤感\n对着镜头唱歌，双手松弛下垂，肩膀微收，眼神黯淡温柔\n对着镜头唱歌，指尖轻抵下唇，目光放空，神态忧郁\n对着镜头唱歌，身体小幅轻晃，双手缓缓抬起又落下，面露怅惘\n对着镜头唱歌，单手搭在肩头，眉眼低垂，神情隐忍又深情"
+      },
+      {
+       "label": "上传音频",
+       "default": null
+      },
+      {
+       "label": "开始时间默认0，如果从第5秒开始就写5",
+       "default": 0
+      },
+      {
+       "label": "结束时间可写30就是前30秒, 默认0为不截取，最大90秒",
+       "default": 0
+      },
+      {
+       "label": "生成视频长边 (Number)",
+       "default": "832"
+      }
+     ]
+    },
+    {
+     "id": "API-J11-LTX2.3高清超自然电商数字人",
+     "ability": "电商数字人",
+     "biz": "带货口播",
+     "note": "",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传图片 (节点 14)",
+       "default": null
+      },
+      {
+       "label": "上传音频 (节点 39)",
+       "default": null
+      },
+      {
+       "label": "Number (节点 167)",
+       "default": 1280
+      },
+      {
+       "label": "Number (节点 168)",
+       "default": 720
+      },
+      {
+       "label": "prompt (节点 187)",
+       "default": "A lively youthful Chinese female beauty livestreamer in her early twenties with bright sparkling almond eyes featuring crisp circular ring light catchlights in her pupils, smooth dewy fair skin with fresh natural makeup including peach pink blush flushed cheeks and glossy tinted lips, long softly curled chestnut brown hair with face-framing bangs, wearing a soft pink chunky knit cardigan over a white camisole with a delicate gold pendant necklace and small pearl stud earrings, holding a transparent glass serum bottle with a black dropper cap close to her chest, standing in a cozy home beauty livestream setup with a warm wooden shelf behind her displaying assorted skincare bottles toner jars and small product boxes, a pegboard hanging neatly arranged makeup brushes, a small acrylic tray with foundation and lipstick swatch cards in front, a soft pink LED neon sign glowing on the wall, illuminated by a large warm ring light creating soft even facial lighting and visible circular pupil reflections, captured by a stationary handheld phone camera with very subtle natural breathing sway, warm golden color grading, shallow depth of field with softly blurred bokeh background, authentic mobile livestream aesthetic"
+      },
+      {
+       "label": "prompt (节点 188)",
+       "default": "She leans forward energetically toward the camera with a wide bright beaming smile and excitedly raised eyebrows, lifting the transparent serum bottle high near her face with both hands in a playful presenting gesture, tilting her head quickly to one side and back with bubbly energy, soft loose strands of her wavy hair bouncing around her cheeks while her sparkling eyes catch the warm ring light, mouth opening wide and animated as she greets her audience with explosive enthusiasm | She softens her posture leaning slightly closer with an earnest sincere expression and gently widened sparkly eyes conveying personal testimony, raising her index finger to delicately tap the outer corner of her own eye while her other hand still cradles the serum bottle near her collarbone, nodding emphatically twice for sincere emphasis, a few stray hair strands brush against her temple as her finger touches her face, lips moving expressively and warmly as she shares her real 28-day result | She moves her face noticeably closer to the camera lens with a confident playful challenging smile and slightly lifted chin showing off her bare unfiltered skin, gently brushing her fingertips along her cheekbone in a subtle skin-tap gesture, slow steady head turn from one side to the other to display both cheeks, fine flyaway baby hairs catching the warm light around her hairline, lips parted in a knowing cheeky smirk as she dares the viewers to look closely | She straightens her posture with a focused animated expert expression while keeping her bubbly energy, lifting her free hand to count off three ingredients on her fingers one by one then tapping the serum bottle label to highlight the formula, quick decisive head nods punctuating each ingredient name, her wavy hair swaying with each gesture and a single glossy strand falling across her shoulder, mouth animated and rapid-fire enthusiastic as she rattles off the ingredient list | She throws her shoulders back in mock shocked excitement with comically widened eyes and an exaggerated open-mouthed gasp at the price reveal, making a sweeping downward chopping hand gesture to slash the price while shaking the serum bottle for emphasis with the other hand, tilting her head back briefly in playful disbelief then snapping forward, hair flipping dramatically with the head movement and her pearl earring catching the light, lips forming a wide animated wow shape conveying unbeatable value | She leans urgently toward the camera with serious focused eyes and quick darting glances downward toward the imagined product link, pointing emphatically with her index finger toward the lower corner of the frame three times in rapid succession while clutching the serum bottle protectively to her chest, sharp small head jerks creating urgency, soft flyaway hairs fluttering from the rapid movement and her cheeks flushing slightly pinker with excitement, lips moving fast and sharply as she creates time pressure | She pulls back slightly with a triumphant beaming smile and bright wide-open eyes sealing the call to action, making a big confident come-on beckoning gesture with her free hand pulling viewers in then clapping once decisively, single sharp affirming nod, hair settling around her shoulders as a single glossy strand falls across her smile, mouth opening wide in a final commanding cheerful shout to grab the link"
+      },
+      {
+       "label": "prompt (节点 189)",
+       "default": "150,180,90,210,210,120,60"
+      }
+     ]
+    },
+    {
+     "id": "API-U11-Minimax-图片音频对口型API",
+     "ability": "图片+音频对口型",
+     "biz": "点歌台定制展示|歌配嘴型",
+     "note": "🔥音乐赛道",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传音频 (节点 155)",
+       "default": null
+      },
+      {
+       "label": "duration (节点 155)",
+       "default": 5
+      },
+      {
+       "label": "自定义宽 (节点 202)",
+       "default": 768
+      },
+      {
+       "label": "自定义高 (节点 202)",
+       "default": 1344
+      },
+      {
+       "label": "上传图片 (节点 233)",
+       "default": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "audio",
+   "label": "🎙 音频（配音/克隆）",
+   "items": [
+    {
+     "id": "API-N2-单人声音克隆FishAudioS2pro",
+     "ability": "单人声音克隆(FishAudio S2 pro)",
+     "biz": "推文配音|点歌台demo|银发点歌师",
+     "note": "🔥配音层主力",
+     "runs": 0,
+     "params": [
+      {
+       "label": "上传音频 (节点 21)",
+       "default": null
+      },
+      {
+       "label": "提示词 (节点 25)",
+       "default": "Hello! [excited] This is my cloned voice.大家好啊，这是我的克隆声音！どうも、皆さん！これが僕（私）のクローンボイスだよ！"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "uncategorized": [],
+ "total": 43
+}
