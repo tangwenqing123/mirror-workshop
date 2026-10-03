@@ -1,0 +1,9 @@
+models/
+code/
+logs/
+out/
+ComfyUI/
+__pycache__/
+*.pyc
+*.part
+MANIFEST.json
