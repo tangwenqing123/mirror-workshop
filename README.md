@@ -39,3 +39,28 @@ bash scripts/start_all.sh                  # ComfyUI:8188 + 网关:9000
 
 ## 路线
 T001 本地骨架(本仓) → T002 GPU 验证 H3 出首条片(计时) → T003 AutoDL 保存私人镜像 → (可选)公开镜像赚激励
+
+## 🏭 产线迁移（2026-10-03 起：漫剧/内容批量出货全走本实例）
+
+**姿态**：实例按需开机（¥1.68/时 4080S-32G）， zealman 镜像 43 张 API 卡 = 产能目录（工作台「🎬GPU工坊」页签可视化）；模型全在 AutoDL 共享仓库软链挂载，**永不自己下载权重**。
+
+**统一客户端**（本地，隧道自动建立 16008→6008）：
+```
+python scripts/studio_client.py status            # 实例/队列状态
+python scripts/studio_client.py list              # 43卡清单
+python scripts/studio_client.py card API-A01-文生图-Qwen2512高清放大
+python scripts/studio_client.py call --wf API-A01-文生图-Qwen2512高清放大 --set "187:text=提示词" --out out.png
+python scripts/studio_client.py batch payload.json
+python scripts/studio_client.py put 本地 /root/ComfyUI/input/ep_batch/refs/x.png
+```
+
+**四层产能**：
+| 层 | 主力卡 | 状态 |
+|---|---|---|
+| 视频 | U03文生加速(2.5min/段) / U02图生 / U08全能参考(多图+台词直写) | ✅ EP09全10段+EP10批量实跑 |
+| 图片 | A01文生图 / C16短剧文生图 / C19三视图 / D20画质重建 | ✅ 两场景资产实跑(各~1.5min) |
+| 配音 | N2单人声音克隆(FishAudio) / N01多 / N03双 | 卡就绪待业务调用 |
+| 音乐 | 主力=Music3免费API(不动)；备胎=ACE-Step v1.5三权重已挂载，N05工作流待导入卡 | 备胎就绪 |
+
+**已验证批量配方（漫剧 EP09/EP10）**：tools/build_ep_batch_payload.py（参考图+时长+RH Enhanced提示词打包）→ tools/batch_ep_gpu.py（实例端断点续跑批量器）→ clips 拉回 → build_timeline → tools/render_timeline_v2.py（concat+混音+ASS+loudnorm −14LUFS）→ 成片。
+**踩坑**：LoadImage 缺图=HTTP 422 且会杀死旧驱动器（已修=单段容错）；ModelScope 免费出图通道限额后 task 全拒（task not found）→ 场景资产改走 GPU A01 卡；EP09 时间线脚本 E08 命名复制遗留已修；ass 滤镜 Windows 盘符冒号须转义。
